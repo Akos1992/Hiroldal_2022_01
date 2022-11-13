@@ -1,23 +1,26 @@
-const static = require('node-static');
-const http = require('http');
 const express = require('express');
+const path = require('path');
 
 var app = express();
 
-var file = new(static.Server)("../Frontend");
+const staticRoot = '../Frontend';
+const staticPath = '/static';
 
-http.createServer(function (req, res) {
-  file.serve(req, res);
-}).listen(8080);
+const fullStaticRoot = path.join(__dirname, staticRoot);
+app.use(staticPath, express.static(fullStaticRoot));
 
 
 app.get('/', function (req, res) {
    res.send('Hello World');
 })
 
+// Routers
+app.use('/news', require('./app/controllers/newsItem'));
+app.use('/users', require('./app/controllers/user'));
+
 var server = app.listen(3000, function () {
    var host = server.address().address
    var port = server.address().port
    
-   console.log("Híroldal szerver fut: http://%s:%s", host, port)
+   console.log('Híroldal szerver fut: http://%s:%s', host, port)
 })
