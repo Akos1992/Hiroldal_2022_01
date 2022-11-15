@@ -28,7 +28,29 @@
 		- 5.2 Címsor
 		- 5.3 Logikus és könnyen feldolgozható információk
 		- 5.4 Reszponzív felület
+
 6. Funkcionalitás
 	- Szerepkörök:
 		- Admin: Új cikk felvitele, szerkesztése, bejelentkezés szükséges
 		- Oldasó: Bejelenkezés nélkül
+        
+7. Fogalomszótár
+	- Sajtótermék
+		A napilap és más időszaki lap egyes számai, valamint az internetes újság vagy hírportál, amelyet 
+		gazdasági szolgáltatásként nyújtanak, amelynek tartalmáért valamely természetes vagy jogi személy 
+		szerkesztői felelősséget visel, és amelynek elsődleges célja szövegből, illetve képekből álló 
+		tartalmaknak a nyilvánossághoz való eljuttatása tájékoztatás, szórakoztatás vagy oktatás céljából, 
+		nyomtatott formátumban vagy valamely elektronikus hírközlő hálózaton keresztül. A szerkesztői 
+		felelősség a médiatartalom kiválasztása és összeállítása során megvalósuló tényleges ellenőrzésért 
+		való felelősséget jelenti, és nem eredményez szükségszerűen jogi felelősséget a sajtótermék 
+		tekintetében. Gazdasági szolgáltatás az önálló, üzletszerűen – rendszeresen, nyereség elérése 
+		érdekében, gazdasági kockázatvállalás mellett – végzett szolgáltatás. 
+	- Hírportál
+		internetes hírlap, azaz olyan weboldal, ami a nyomtatott hírlapokhoz hasonló módon híreket közöl.
+		Léteznek kifejezetten csak az interneten lévő hírportálok, de vannak olyanok is, amik egy 
+		hagyományos, papír alapú újság internetes változatai.
+		A kifejezés a hír és a portál szavak összetételéből áll. A portál (= bejárat) kifejezés régebben 
+		olyan nagy internetes oldalt jelölt, ami a rajta található sok tartalom, más oldalakra mutató 
+		hivatkozás és szolgáltatás miatt hasznos kiindulásként használható az interneten, de az 
+		internetezési szokások megváltozása, a közösségi média előretörése miatt manapság már inkább a 
+		weboldal szinonimájaként használják (jellemzően nagyobb oldalakra).
