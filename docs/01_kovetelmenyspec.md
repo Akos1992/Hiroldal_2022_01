@@ -21,3 +21,14 @@
 
 4. Jelenlegi üzleti folyamatok modellje.
 	- Az olvasó nem tud megbízni a hírportálok 99%-ban. 
+
+5. Követelménylista
+	- Megjelenés
+		- 5.1 Átlátható felület
+		- 5.2 Címsor
+		- 5.3 Logikus és könnyen feldolgozható információk
+		- 5.4 Reszponzív felület
+6. Funkcionalitás
+	- Szerepkörök:
+		- Admin: Új cikk felvitele, szerkesztése, bejelentkezés szükséges
+		- Oldasó: Bejelenkezés nélkül
