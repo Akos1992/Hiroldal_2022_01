@@ -11,3 +11,9 @@
 
 3. Vágyálom rendszer
     A weboldalt úgy tervezzük, hogy ideális működése esetén a korábbi igények meghatározása alapján az alábbi funkciókat tartalmazza:
+    - Különböző kategóriák közül lehessen választani
+    - Lehessen keresni a hírek közt
+    - Adatbázis a hírek könyebb kereshetősége és létrehozása érdekében
+
+4. Követelménylista
+    
