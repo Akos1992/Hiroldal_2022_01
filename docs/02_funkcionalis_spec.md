@@ -16,4 +16,15 @@
     - Adatbázis a hírek könyebb kereshetősége és létrehozása érdekében
 
 4. Követelménylista
-    
+    4.1 Átláthatóság
+        4.1.1 Megjelenés
+            4.1.1 Letisztult megjelenés
+            4.1.2 Logikus felépítés
+        4.1.2 Dinamikus megjelenítés
+            4.2.1 Reszponzív felület
+    4.2 Funkcionalitás
+        4.2.1 Hírek kezelése
+            4.2.1.1 Hírek
+                4.2.1.1.1 Admin képes legyen hírt létrehozni
+                4.2.1.1.1 Admin képes legyen hírt szerkeszteni                
+                4.2.1.1.1 Admin képes legyen hírt törölni
