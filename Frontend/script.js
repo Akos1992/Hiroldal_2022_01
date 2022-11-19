@@ -19,14 +19,13 @@ content =
         `
         <div class="row">
             <div class="col-sm">
-                <div class="card" style="width: 100%">
+                <a href="" style="text-decoration: none; width: 100%;" class="card">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">${headlineNews.title}</h5>
                         <p class="card-text">${headlineNews.category}</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         `
@@ -37,14 +36,13 @@ if (newsWithoutHeadline.length > 0) {
 newsWithoutHeadline.forEach(p => {
         content += `
         <div class="col-sm">
-            <div class="card" style="width: 18rem;">
+            <a href="" style="text-decoration: none; width: 18rem;" class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">${p.title}</h5>
                     <p class="card-text">${p.category}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-            </div>
+            </a>
         </div>
         `
     }
