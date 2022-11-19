@@ -12,22 +12,40 @@
 <body>
   <div class="container">
     <header>
-      
+
     </header>
     <main id="main"></main>
   </div>
   <script>
     fetch("./header.html")
-    .then(response => {
+      .then(response => {
         return response.text()
-    })
-    .then(data => {
+      })
+      .then(data => {
         document.querySelectorAll("header").forEach(p => {
-            p.innerHTML = data;
+          p.innerHTML = data;
         });
-    });
+      });
   </script>
 
-</body>
-</html>
+  <footer>
+    <div class="container pt-4 text-center">
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/Akos1992/Hiroldal_2022_01"
+        role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="text-center">
+      <a href="adatvedelmi_tajekoztato.html">
+        Adatvédelmi tájékoztató
+      </a>&nbsp;
+      <a href="...">
+        Impresszum
+      </a>
+    </div>
+    <div class="text-center">
+      A csapat Zrt.©2022
+    </div>
+  </footer>
 
+</body>
+
+</html>
