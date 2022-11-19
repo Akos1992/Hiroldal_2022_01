@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <main>
+            <div class="text-center">Kérjük jelentkezzen be!</div>
+            <form><!-- onsubmit="/auth backend hívás" -->
+                <div class="row" style="width: 500px; margin:auto">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email cím</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Jelszó</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Bejelentkezés</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script>
+        fetch("./header.html")
+            .then(response => {
+                return response.text()
+            })
+            .then(data => {
+                document.querySelectorAll("header").forEach(p => {
+                    p.innerHTML = data;
+                });
+            });
+    </script>
+
+</body>
+
+</html>
