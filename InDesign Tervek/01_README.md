@@ -1,0 +1,22 @@
+LEÍRÁS
+KEZDETBEN KÉZZEL RAJZOLT SKICCEK SEGÍTENEK A WEBOLDAL ELKÉSZÍTÉSÉBEN. VISZONT, ÚJ ISMERETEK ELSAJÁTÍTÁSA VÉGETT ELKEZDJÜK AZ ADOBE INDESING PROGRAM MEGISMERÉSÉT
+ÍGY EZZEL A PROGRAMMAL MEGISMERKEDVE AZ ALAPOKTÓL ELKEZDŐDIK A TERVEZÉSE A DESIGN ELEMEKNEK
+EBBE A MAPPÁBA KERÜLNEK BE AZ ADOBE INDESIGN PROGRAMMAL TERVEZETT PDF SKICCEK
+
+
+Adobe Indesign:
+Az Adobe InDesign egy asztali kiadványszerkesztő program, amelyet az Adobe Systems gyárt. A program használható poszterek, szórólapok, brosúrák, magazinok, újságok és könyvek szerkesztésére is. Az InDesign segítségével emellett tablet eszközökre szánt tartalmak is szerkeszthetőek az Adobe Digital Publishing Suite használatával. A programot elsősorban grafikusok és kiadványszerkesztők használják, leggyakrabban időszakos kiadványok, poszterek és nyomtatott médiumok szerkesztésére.
+
+Története:
+Az InDesign az Adobe PageMaker utódja, amelyet az Aldus cég 1994-es felvásárlásával szerzett meg az Adobe. A program piacra dobását követően igen sikeresnek bizonyult, nemsokára azonban megjelent első riválisa, a részben az Adobe újításaira alapozott Quark is. A két vállalat éveken keresztül harcolt a piaci részesedését, újabb és újabb frissítéseket adva ki. Ebben az időszakban a két szoftvert sok kiadványszerkesztő cég együttesen használta, a Quark azonban lassan gyakorlatilag iparági szabvánnyá vált, s a PageMakert egyre kevesebben kezdték alkalmazni. 1998-ra a PageMaker részesedése a professzionális piacon minimálisra csökkent a jóval több funkciót kínáló 1994-es QuarkXPress 3.3 alkalmazással, illetve annak 1996-os 4.0-s verziójával szemben. A Quarknak ekkor szándékában állt felvásárolni az Adobét a PageMaker kivételével, elkerülendő az Egyesült Államok trösztellenes törvényeinek megsértését.
+
+Az Adobe visszautasította a felvásárlási ajánlatot, és inkább folytatta a munkát egy új, saját kiadványszerkesztő alkalmazás kifejlesztésén. Az eredetileg "Shuksan" kódnevű projektet még az Aldus indította útjára. Az Adobe később "K2" kódnévre változtatta ezt, végül pedig 1999-ben InDesign 1.0 néven adták ki az elkészült alkalmazást.
+
+2002-ben az InDesign vált az első natív Mac OS X kiadványszerkesztő szoftverré. A 3-as verzió, mely már az InDesign CS nevet viselte, jóval több emberhez jutott el, mivel a Photoshop, Illustrator és Acrobat programokkal együtt értékesítették a Creative Suite részeként.
+
+Az InDesign PDF (Portable Document Format) formátumban exportál dokumentumokat és többnyelvű támogatással rendelkezik. Ez volt az első kiadványszerkesztő alkalmazás, amely támogatta az Unicode kódolást a szövegek feldolgozásához, OpenType fontot tartalmazott a fejlettebb tipográfiai megoldások kivitelezése érdekében, illetve állítható átlátszósággal, megjelenési stílusokkal, optikai margóigazítással és JavaScript-es platformfüggetlen scriptelési lehetőséggel is bírt.
+
+A szoftver későbbi verzióiban új formátumok váltak elérhetővé. Az InDesign CS-ben bemutatott új funkciók - elsősorban a tipográfiai lehetőségek - támogatása érdekében sem a programot, sem a dokumentumok formátumát nem tették visszafelé kompatibilissé. Ehelyett az InDesign CS2-vel bevezették a visszafelé kompatibilis, XML-alapú INX (.inx) dokumentumformátumot. A 2005 áprilisában kiadott 3.1-es frissítéssel ellátott InDesign CS verziók képesek az InDesign CS2-vel elmentett, INX formátumban exportált fájlok olvasására. Az InDesign Interchange formátum az InDesign CS-nél korábbi verziókat nem támogat. Az InDesign CS5-tel az Adobe az INX-et az InDesign Markup Language (IDML) formátumra cserélte, amely szintén XML-alapú.
+
+Az Adobe 2007-ben az InDesign CS3-at (és a Creative Suite 3-at) univerzális bináris szoftverként fejlesztette ki, amely natív Intel és PowerPC Mac gépekre. Ezt a verziót azonban csak két évvel a tervezett publikálást követően, 2005-ben adták ki. Az Adobe vezérigazgatója, Bruce Chizen ekkor jelentette be, hogy az Adobe lesz az első, amely univerzális alkalmazások egész sorát adja majd ki. A CS2 Mac verzió kódját szorosan integrálták a PPC architektúrába, és nem volt natívan kompatibilis az Apple új gépeiben található Intel processzorokkal, így a termékek más platformokra portolása nehézkesebb volt, mint azt korábban várták. A CS3 alkalmazásba az Adobe integrálta a Macromedia termékeket 2005-ben ahelyett, hogy újraírták volna a CS2-t a CS3 fejlesztésével egyidőben.
+InDesign és Leopard
