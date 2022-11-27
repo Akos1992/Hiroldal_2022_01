@@ -1,0 +1,84 @@
+CREATE TABLE CIKKEK (
+	cikkID INTEGER PRIMARY KEY UNIQUE,
+	cikkCim TEXT NOT NULL,
+	cikkLead TEXT,
+	cikkTorzs TEXT NOT NULL,
+	cikkSzerzo TEXT,
+	cikkDate TEXT,
+	vezetoHir INTEGER DEFAULT 0,
+	katID INTEGER,
+	FOREIGN KEY (katID) REFERENCES KATEGORIA (katID) ON DELETE CASCADE ON UPDATE NO ACTION
+);
+
+INSERT INTO CIKKEK (cikkID, cikkCim, cikkLead, cikkTorzs, cikkSzerzo, cikkDate, katID)
+VALUES 
+(1,
+"Túl drága lenne az Xbox streamingdoboz, szóval lefújta a Microsoft",
+"Többre jönnének ki a gyártási költségek, mint ahogy azt a redmondiak tervezték.",
+"Már jó ideje tûnhetett úgy, hogy nyögvenyelõsen halad a Microsoft önálló streaming eszköze, a Project Keystone néven említett kütyü, ami májusi bejelentés alapján némi csúszással idén jelent volna meg. Volna, mivel Phil Spencer, a redmondiak vezérigazgatója nemrég közölte, hogy a legkisebb Xbox projektjét felfüggesztik, mert a prototípusban felhasznált hardverek és a gyártási költségek a késztermék árcímkéjét jóval feljebb nyomnák a tervezettnél.
+A vállalat eredetileg 99-129 dollár körüli összeget célzott meg, de a választott szilíciumlapka és a csomag részeként érkezõ kontroller már a 299 dolláros Xbox Series S konzol közelébe repítené az eszköz fogyasztói árát. Így ugyan a prototípus már készen állt és mûködött, a Microsoft mégsem dobja piacra a terméket, mert nem sikerül belõni egy olyan árat, ami egyszerûen megérné a vásárlóknak.
+A csapat erõforrásait az okostévékre szánt streaming alkalmazás fejlesztésére csoportosítja át a vállalat, júniusban a Samsung egyes modelljein már elérhetõvé is vált az Xbox TV, amivel az Xbox Game Pass Ultimate elõfizetõi több mint 100 játékot streamelhetnek a felhõbõl, ami az Xbox Series X hardver erejének elõnyeit kínálja számukra.
+A Microsoft nagy terve az volt, hogy a Keystone egy felhõs streamelésre használható, tévékhez csatlakoztatható Xbox-eszköz lesz, a konzolok árának töredékéért. Eleinte a pletykák arról szóltak, hogy leginkább az Amazon, vagy a Roku stickjére hasonlít majd, aztán  kiderült, hogy inkább egy doboz- vagy korongszerû kialakítás várható. Októberben végül kiszivárgott egy kép a prototípusról, ami a felvétel tanulsága alapján kisebb, mint egy kontroller, de külsejében hajaz az Xbox Series S-re.
+A koncepciót azért nem temetnénk teljesen, van rá esély, hogy a Microsoft kicsit újragondolva a dolgot végül mégis elõrukkol a jövõben valamikor az eredeti elképzelést teljesítõ termékkel.",
+"Dömös Zszuzsanna",
+"2022-11-18",
+1),
+(2,
+"Hangalapú programozásra ösztönöz a GitHub",
+"Még le sem csillapodtak a kedélyek a programkódok automatizált kiegészítésére képes Copilot körül, de a szolgáltatást elérhetõvé tevõ GitHub máris egy újabb funkcióval próbálkozik. Hangalapú parancsokkal is lehet irányítani a Copilot kódolását.",
+"Mostantól hangalapú irányítással is programozhatnak a GitHub felhasználói a júniusban bevezetett kódolást könnyítõ megoldás, a Copilot részeként. Az új funkciót a vállalat az éves GitHub Universe konferencián jelentette be, a vitatott AI-alapú szolgáltatásának népszerûsítésére, és a kódolás jövõjével folytatott kísérleti próbálkozások folytatására.
+A hangalapú megoldás más asszisztensekhez hasonlóan a „Hey, GitHub” felszólításra kezd fülelni, és teljesíti a programozók természetes nyelven adott parancsait. Egyelõre a megoldás fõleg a gépelés kiváltására képes, ami különösen a hozzáférhetõségi szempontok miatt fontos. Az asszisztens megkérhetõ, hogy navigáljon egy adott sorra, szúrjon be egy sort, futtassa le a programot, vagy kapcsoljon ZEN módra. Sõt, ahogy a Copilot, úgy a hangalapú megfelelõje is képes kiegészíteni a programsort a már begépelt kódok alapján, vagy összefoglalót is tud adni egy-egy részletrõl a bejelentés szerint.
+Maga a Copilot megoldáscsomag 60 napos ingyenes próbaidõszakot követõen havi 10 vagy évi 100 dollárért használható. Ezen belül a hangalapú parancsadási lehetõség kipróbálására egyelõre várólistán keresztül lehet bejelentkezni. A funkció használata is egyelõre csak a Microsoft Visual Studio Code nyílt forráskódú kódszerkesztõjére korlátozott, de ez természetesen további fejlesztõi környezetekre is kiterjed majd a GitHub ígérete szerint. Persze amennyiben a kísérleti funkciót a csapat érdemesnek látja a továbbfejlesztésre.
+Jogszerû egyáltalán?
+A bejelentés különösen érdekes az ídõzítés szempontjából, mivel a Copilot kapcsán pont múlt héten indítottak csoportos pert a GitHub, a tulajdonos Microsoft és az OpenAI ellen. Sokan a kezdetek óta vitatják a Copilot (és más interneten betanult, mesterséges intelligencia megoldások) jogszerû mûködését, ugyanis betanulás során a modell válogatás nélkül dolgozta fel a kódokat, ami a biztonsági aggályok mellett szerzõi jogi kérdéseket is felvet.
+Matthew Butterick és a Joseph Saveri Ügyvédi iroda álláspontja szerint az MI-nek is jogszerûnek és elszámoltathatónak kell lenni, de az indítványuk szerint a Copilotra jelenleg ez nem igaz. A vizsgálat eredményére még biztosan hónapokat kell várni, addig is a GitHub láthatóan folytatja a Copilot bõvítését és terjesztését a fejlesztõk körében.",
+"Habók Lilla",
+"2022-11-11",
+1),
+(3,
+"Még a tévé az elsõ, de már a spájzban az internet az idõseknél",
+"Az 50-75 évesek online jelenléte napjainkra a korosztály meghatározó jellemzõjévé vált. Az idõsebb internetezõk közül szinte mindenki használja a közösségi médiát, egyharmaduk a fizetõs streaming szolgáltatásokat is. Ugyanakkor a kedvelt tartalmakat továbbra is leginkább a hagyományos tévécsatornákon fogyasztják – derült ki a Magyar Elektronikus Mûsorszolgáltatók Egyesülete és a Nemzeti Média- és Hírközlési Hatóság együttmûködésében készült legújabb kutatásból.",
+"Az utóbbi évek technológiai evolúciójának köszönhetõen a mozgóképes tartalmakat kínáló platformok köre jelentõsen kibõvült. Joggal merül fel a kérdés, hogy a megváltozott körülményeket figyelembe véve a hagyományos televíziózás milyen szerepet játszik a mozgóképes tartalomfogyasztásban. Többek között erre a kérdésre is választ kaphattunk a MEME és az NMHH együttmûködésében készült legújabb kutatásból, melyben 2000 fõ 50 és 75 év közötti magyar lakost kérdeztek meg médiafogyasztási szokásaikról.
+Ha a fenti kérdésre keressük a választ, akkor elsõként érdemes egy pillantást vetnünk az 50-75 év közötti lakosok háztartásaiban elõforduló audiovizuális eszközparkra, hiszen a technikai lehetõségek egyrészt hatással lehetnek a tartalomfogyasztás platformjára, másrészt általános mutatói annak, hogy az említett korosztály mennyire követi korunk technológiai, digitális trendjeit.
+Az adatokból az látható, hogy a televízió szinte minden háztartás kötelezõ tartozéka, ám amíg esetleg azt gondolnánk, hogy a korszerû eszközök (pl. okostelefon, laptop, tablet) aránya rendkívül alacsony, addig ezzel szemben azt látjuk, hogy a felsorolt eszközök – természetesen eltérõ mértékben – de jelen vannak az 50-75 év közöttiek háztartásaiban is. Az említett háztartások kétharmada rendelkezik okostelefonnal, és majdnem minden második háztartás birtokol laptopot, notebookot, de még a tabletek elõfordulási aránya is közel 25%-os.
+Az 50-75 éves lakosságon belül – nem meglepõ módon – a 60-75 évesek körében alacsonyabb az okostelefon, laptop és tablet ellátottság (56, 28, ill. 14%), azonban ezek az adatok is jól mutatják, hogy a korszerû eszközök térhódítása az idõsebb korosztályban is megkezdõdött.
+Ebben a korosztályban egyre szélesebb körben elterjedt az internetezés, a megkérdezettek egyharmada állította, hogy naponta internetezik, míg a hetente legalább többször internetezõk összesített aránya is magas, kétharmados. Ha a közösségimédia-használatot vizsgáljuk a korcsoporton belül, az szinte azonos gyakoriságot mutat az internet használatával, azaz az internetet használók közül szinte mindenki követi a közösségi média történéseit is.
+Bár a 60-75 évesek 33%-a egyáltalán nem vagy csak ritkán használja az internetet, a hatóság szerint semmiképp sem tekinthetünk erre a korosztályra úgy, mint az átalakulóban lévõ médiahasználati szokások késõi követõire: az 50-75 évesek online jelenléte a korosztály meghatározó jellemzõjévé vált. 
+A kutatásból kiderül továbbá, hogy az elmúlt években gyorsan terjedõ fizetõs streamingszolgáltatók növekvõ népszerûsége ebben a korosztályban is megfigyelhetõ.
+Ugyanakkor ebben a korosztályban továbbra is a hagyományos tévécsatornákon történõ tévénézés a médiafogyasztás leggyakoribb módja. A válaszadók háromnegyede naponta néz így tévét, és 88%-uk legalább hetente néz hagyományos tévécsatornákat.
+Az 50-75 éves korosztályban kiemelkedõen népszerûek a filmek és a hírek, de a sorozatokat és a tudományos ismeretterjesztõ mûsorokat is kétharmaduk követi, ezen kívül rendkívül népszerûek a politikai, zenei tartalmak, valamint a kvízmûsorok, vetélkedõk is. E tartalmak jelentõs része ma már a hagyományos tévécsatornákon kívül más platformokon is elérhetõ, ezért a kutatás azt is vizsgálta, hogy az említett tartalmakat milyen platformokon követik az 50-75 évesek. Kiderült, hogy szinte minden tartalomtípus esetében meghatározó a hagyományos tévécsatornák szerepe.",
+"Koi Tamás",
+"2022-11.18",
+1),
+(4,
+"Mit tanulhatunk a KRÉTA feltörésébõl?",
+"Az utóbbi pár hétben meglehetõsen nagy port kavart egy hazai informatikai cégnél történt korábbi biztonsági incidens, melynek révén ismeretlenek hozzáférhettek az eKréta rendszer adatbázisaihoz és forráskódjához. A felek sok hibát halmoztak fel mind kommunikációban, mind a helyzet technikai kezelése közben, cikkünkben utóbbi eseteket járjuk körbe.",
+"Ebben a cikkben az elmúlt évek egyik legnagyobb hazai kiberbiztonsági incidense kapcsán, a bulvár feltételezéseket mellõzve a már közkézen forgó üzenetek és forráskód alapján vonunk le a fentiekben láthatónál jóval konkrétabb tanulságokat, melyek nemcsak az érintett KRÉTA rendszer jelenlegi és leendõ fejlesztõi/dolgozói számára lehetnek hasznosak, hanem a többi, Magyarországon készülõ szoftver biztonságosabbá tételét is szolgálják. 
+A rendszer megtörése
+A támadás kivitelezése egy fertõzött linket tartalmazó üzeneten keresztül kezdõdött az elmondások alapján. A hollywoodi filmek túldramatizált jeleneteibõl kiindulva hajlamosak vagyunk azt hinni, hogy a rendszerek/cégek ellen irányuló támadások többsége az informatikai rendszerek közvetlen kihasználásával kezdõdik. Ez önmagában azonban nem feltétlenül helytálló elképzelés.
+A világhálón található szoftverek robotok által folyamatosan támadás alatt állnak, azonban amikor célzott támadásról beszélünk (azaz egy bizonyos cég adatait vagy információit szeretnénk megszerezni), akkor a helyzet nem ilyen egyértelmû. Sokkal kevésbé detektálható egy ember hibája a vezetõ beosztásúak között, mint egy teljes szoftver alapú invázió. Ezt a támadást egyébként a “nagyhalakra” történõ vadászat, azaz “whaling” néven szokták emlegetni. A beszámolók alapján itt is ez volt a belépési pont a céges környezetbe.
+1. tanulság
+Sokszor (mindig?) az emberek a leggyengébb láncszemek egy cég életében. Mindenképpen érdemes támogató rendszereket létesíteni; nem csak telepített, de jól beállított vírusvédelem és nem utolsósorban az alkalmazottak képzése a bizalomra alapuló támadások felismerésére és azonnali jelentésére!
+A kiszivárgott beszélgetések alapján több más jellegû probléma is volt a szervezet belsõ mûködésével. A következõ mondat amilyen ártalmatlannak tûnik, olyan mély mûködésbeli/rendszerszintû hiányosságokat takarhat:
+A fent említett jelenség, a “fiókmegosztás”, sokszor keseríti meg a cégek életét. Ismerjük a mondást, miszerint “közös lónak túros a háta”. A közös fiókokkal hasonló a helyzet. Mivel egyszerre többen lehettek, akik elvégezték a “változtatást”, nincs gazdája az okozott problémának, és még kinyomozni is nehezebb, hogy egy adott támadás honnan ered.
+2. tanulság
+A belsõ rendszerszintû problémák az elsõ adandó alkalommal megnehezítik az incidens továbbgyûrûzésének megállítását. A jogosultságkezelési problémák, mint a fiókmegosztás, lehetetlenné teszik sok esetben, hogy egy rendszert vagy felhasználóit részlegesen leállítsunk, letiltsunk.
+A fent említett két tanulság mellett még lehetne hasonló szisztematikusan rosszul mûködõ folyamatokra rávilágítani, mint hogy egyes felhasználók jogosultságai miért terjedtek ki gyakorlatilag minden funkcionalitás elvégzésére, vagy az incidensek kezelésének módja mennyire tisztázatlan volt, de ezen aspektusok spekulációt tartalmaznának a mûködésre vonatkozólag, ettõl azonban szeretnénk elzárkózni.
+A kiszivárgott kód érdekességei
+Ha nagyon távolról szeretnénk indulni, akkor érdemes szemügyre vennünk a 2016-os amerikai választásokon történteket és az azzal kapcsolatban kiadott Mueller-jelentést. Ezen riport szerint külsõ erõk is támadták az amerikai választási rendszer integritását. A dokumentum a támadás technikáját is ismerteti, ami nem más mint az:
+Az interneten könnyûszerrel, egy Google-kereséssel fellelhetõ kódrészletek tanúsága szerint a KRÉTA fejlesztõi ennek kivédésére több megoldást is próbáltak implementálni, azonban kérdéses, hogy ezek milyen sikerrel tudják venni az akadályokat. A több helyen is nevetség tárgyaként létrehozott képernyõképek ráadásul arra engednek következtetni, hogy a probléma megléte ismert volt a fejlesztõk számára.
+Mindenesetre ha a fejlesztõknek nem volt lehetõsége megismerkedni a helyes megoldással, akkor nem is igazán elvárható, hogy a megfelelõ szoftvert szállítsák le egy éles rendszer készítésénél. 
+A modernebb fejlesztés folyamán (objektumorientált környezetben szinte mindenhol) biztonságosan megírt segédszoftvereket használunk. Ezeket objektum-relációs mappelés vagy ORM néven szoktuk emlegetni. Egy ilyen megoldás lenne C# környezetben a .NET Entity Framework is.
+3. tanulság
+Ha a szoftverünk vagy a fejlesztõ gárdánk “lemarad” tudásban az “új” technológiákról (prepared statement, ORM), akkor olyan problémákra kell valószínûleg hibás egyedi megoldást fejleszteni, melyekre a biztonságos megoldás már több mint 10 éve ismert.
+Az XSS támadást remélhetõen megelõzõ kódrészleten és a csúnya szavak listáján kívül nagy visszhangot vert a fejlesztõi közösségben a jelszavak kezelése a rendszeren belül. Ugyan elhangzott, hogy a forráskód egy tesztelésre szánt rendszer sorait és konfigurációját tartalmazza csak, azonban a jelszavak és kulcsok beégetett mivolta nyugtalanító. A kiadott fájlok között ugyanis megtalálhatóak a mûködõ éles rendszerben található kulcsok is.
+Szerencsére ezek jelszóval védettek, de létezik szoftver azoknak a visszafejtésére. (Ennek fényében különösen aggasztó, hogy a rendszer fejlesztõi és üzemeltetõi nem léptek kapcsolatba a megfelelõ hatóságokkal, mert így a kulcsok visszavonása is kérdéses, hogy idõben megtörténhetett-e.)
+Mindenesetre elmondható, hogy egy modernebb fejlesztési környezetben nem ebben a formában javasolt a konfigurációk és abban a kulcsok, jelszavak kezelése. Ennek megfelelõen a kapcsolódó rendszerek felülvizsgálata is javasolt, tekintve, hogy a kikerült fájlok lehetõséget nyújthattak akár más helyeken üzemeltetett rendszerek kihasználására is.
+4. tanulság
+Ha ugyanabban a (verziókezelõ) rendszerben, vagy forráskódba égetve tároljuk az alkalmazás mûködéséhez szükséges konfigurációkat és kulcsokat, akkor a fejlesztõktõl kezdve, akár a támadói kezekbe is kerülhetnek az éles rendszer titkai, melyek más rendszer kompromittálódásához is vezethetnek.
+A fentebb tárgyalt hibákon felül még vannak olyan elemek, melyek több ponton is kérdéseket vetnek fel a rendszer megtörését követendõ szükséges lépésekkel kapcsolatban. A támadók ugyan nem közöltek személyes adatokat, de azok a birtokukba jutottak. Itt fontos megjegyezni, hogy ugyan a fejlesztõk ismertek bizonyos szintû biztonságot a felhasználói jelszavakkal kapcsolatban, mégis a rendszerben olyan függvények használata történik, melyek már sok éve nem javasoltak jelszótárolásra (MD5, SHA1). Ennek megfelelõen, hogy a lehetõ legtöbb olvasónk és ismerõseik biztonságban tudhassák további fiókjaikat, szeretnénk az alábbi tanácsot adni minden KRÉTA-felhasználónak (tanárok, diákok, szülõk).
+Az KRÉTA esete remélhetõleg rávilágít a teljes szoftverfejlesztési folyamat és számítógépes világ egyik égetõ problémájára. A jó hír, hogy az összes itt fellelhetõ hibára van megoldás, és ezek beépíthetõek a különbözõ folyamatokba, a cégek életébe, a fejlesztõk tudásába.
+MEGJEGYZÉS: cikkünk vendégszerzõje Módly Márk, a Hardcore IT Solutions szakértõje. A cikkben foglaltak nem feltétlenül tükrözik a HWSW szerkesztõségének véleményét. Felhívjuk a figyelmet, hogy bármilyen egyedi kód vagy kódrészlet jogosulatlan megszerzése, módosítása vagy terjesztése törvénybe ütközõ cselekedet lehet!",
+"Módly Márk",
+"2022-11-17",
+1);
