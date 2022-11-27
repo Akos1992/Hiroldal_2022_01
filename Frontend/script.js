@@ -7,8 +7,6 @@ let content = '';
 let newsWithoutHeadline = [];
 let headlineNews;
 
-let isAdmin = true; // todo lecserélni igazi backend hívásra
-
 dummyNews.forEach(p => {
     if (!p.headline) {
         newsWithoutHeadline.push(p);
@@ -22,7 +20,7 @@ content =
         <div class="row">
             <div class="col-sm">
                 <a href="" style="text-decoration: none; width: 100%;" class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">${headlineNews.title}</h5>
                         <p class="card-text">${headlineNews.category}</p>
@@ -39,7 +37,7 @@ newsWithoutHeadline.forEach(p => {
         content += `
         <div class="col-sm">
             <a href="" style="text-decoration: none; width: 18rem;" class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">${p.title}</h5>
                     <p class="card-text">${p.category}</p>
@@ -58,3 +56,4 @@ if (newsWithoutHeadline.length > 0) {
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector("#main").innerHTML = content;
   }, false);
+

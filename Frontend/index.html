@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="bootstrap.min.css">
   <script src="bootstrap.min.js"></script>
   <script src="script.js"></script>
+  <script src="nav.js"></script>
   <script src="https://kit.fontawesome.com/b3aa70f4e3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -29,6 +30,14 @@
           if(!isAdmin)
           {
               document.getElementById("ujHirButton").style="display:none";
+          }
+          if(!isLoggedIn)
+          {
+              document.getElementById("kijelentkezes").style="display:none";
+          }
+          else
+          {
+             document.getElementById("bejelentkezes").style="display:none";
           }
         });
       });
