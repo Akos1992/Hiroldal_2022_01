@@ -28,6 +28,7 @@
                 </div>
             </form>
         </main>
+        <footer></footer>
     </div>
     <script>
         fetch("./header.html")
@@ -37,6 +38,15 @@
             .then(data => {
                 document.querySelectorAll("header").forEach(p => {
                     p.innerHTML = data;
+                });
+            });
+        fetch("./footer.html")
+            .then(response => {
+                return response.text()
+            })
+            .then(data => {
+                document.querySelectorAll("footer").forEach(p => {
+                p.innerHTML = data;
                 });
             });
     </script>
