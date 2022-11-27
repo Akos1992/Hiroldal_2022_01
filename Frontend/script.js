@@ -7,6 +7,8 @@ let content = '';
 let newsWithoutHeadline = [];
 let headlineNews;
 
+let isAdmin = true; // todo lecserélni igazi backend hívásra
+
 dummyNews.forEach(p => {
     if (!p.headline) {
         newsWithoutHeadline.push(p);

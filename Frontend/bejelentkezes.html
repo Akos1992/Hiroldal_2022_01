@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="script.js"></script>
     <script src="bootstrap.min.js"></script>
 </head>
 
@@ -38,6 +39,10 @@
             .then(data => {
                 document.querySelectorAll("header").forEach(p => {
                     p.innerHTML = data;
+                    if(!isAdmin)
+                    {
+                        document.getElementById("ujHirButton").style="display:none";
+                    }
                 });
             });
         fetch("./footer.html")

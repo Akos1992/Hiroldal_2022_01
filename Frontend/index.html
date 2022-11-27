@@ -26,6 +26,10 @@
       .then(data => {
         document.querySelectorAll("header").forEach(p => {
           p.innerHTML = data;
+          if(!isAdmin)
+          {
+              document.getElementById("ujHirButton").style="display:none";
+          }
         });
       });
     fetch("./footer.html")
