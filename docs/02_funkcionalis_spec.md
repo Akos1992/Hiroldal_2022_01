@@ -78,14 +78,14 @@
 		- Keresés
 		- Szűrés
 	6.2 USER
-		- Weoldal alap funkciók
+		- Weboldal alap funkciók
 		- Keresés
 		- Szűrés
 
 7. Képernyő tervek
-	- kezdei kézzel rajzolt tervek megvalósítása ADOBE INDESIGN szoftverre. Ezek a hubra feltöltésre kerülnek, mint protoptipus tervek.
-	- A főoldalon jelennek meg a weblap legfontosabb elemei. Vízszitnes sávban helyezkednek el a kategóriák. Melyek kiemelt részét kepezik a weblapnak.
-	- Jobb felső sarokban található meg a bejelentkezés adminok részére egyelőre, később kialakításra került a USER-ek bejelentkezése is, hozzászólás funkció bekapcsolásához.
+	- kezdeti kézzel rajzolt tervek megvalósítása ADOBE INDESIGN szoftverre. Ezek a hubra feltöltésre kerülnek, mint protoptipus tervek.
+	- A főoldalon jelennek meg a weblap legfontosabb elemei. Vízszintes sávban helyezkednek el a kategóriák. Melyek kiemelt részét kepezik a weblapnak.
+	- Jobb felső sarokban található meg a bejelentkezés adminok részére egyelőre, később kialakításra kerül a USER-ek bejelentkezése is, hozzászólás funkció bekapcsolásához.
 	- Rólunk fülre kattintva néhány sorban összefoglaljuk kik vagyunk, mit akarunk, hova tartunk.
 	- Keresés ablakra beírva lehet keresni a meglévő hírek között. 
 	- Kapcsolat fülön lehet üzenetet küldeni részünkre.
