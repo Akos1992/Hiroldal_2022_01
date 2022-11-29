@@ -27,12 +27,14 @@
     - kép: bináris
 
     Megkötések a táblához:
-    A News tábla categoryId-ja 1:1 kapcsolatba van az Categories tábla id-jával. 
+    A News tábla categoryId-ja 1:N kapcsolatba van az Categories tábla id-jával. 
 
  - Categories tábla
     - id: szám
     - név: szöveg
 
- - Admins tábla
+ - Uaers tábla
+    - userID: szám
     - username: szöveg
+    - email: szöveg
     - jelszó: szöveg
