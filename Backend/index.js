@@ -8,6 +8,7 @@ const staticPath = '/static';
 
 const fullStaticRoot = path.join(__dirname, staticRoot);
 app.use(staticPath, express.static(fullStaticRoot));
+app.use(express.json())
 
 
 app.get('/', function (req, res) {
@@ -17,6 +18,7 @@ app.get('/', function (req, res) {
 // Routers
 app.use('/news', require('./app/controllers/newsItem'));
 app.use('/users', require('./app/controllers/user'));
+app.use('/auth', require('./app/controllers/auth'));
 
 var server = app.listen(3000, function () {
     var host = server.address().address
