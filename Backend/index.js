@@ -18,7 +18,6 @@ app.get('/', function (req, res) {
 // Routers
 app.use('/news', require('./app/controllers/newsItem'));
 app.use('/users', require('./app/controllers/user'));
-app.use('/auth', require('./app/controllers/auth'));
 
 var server = app.listen(3000, function () {
     var host = server.address().address
