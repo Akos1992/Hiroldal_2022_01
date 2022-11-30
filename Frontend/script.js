@@ -57,3 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector("#main").innerHTML = content;
   }, false);
 
+
+window.onload = () => {
+    fetchCategories();
+}
