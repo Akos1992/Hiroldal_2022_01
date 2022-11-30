@@ -58,6 +58,20 @@ document.addEventListener('DOMContentLoaded', function () {
   }, false);
 
 
+
+function checkCategoryRoute() {
+    var hash = window.location.hash;
+    const catUrlBase = '#/kat/';
+    if (hash.startsWith(catUrlBase)) {
+        const categoryId = parseInt(hash.substring(catUrlBase.length, hash.length));
+        fetchNewsByCategory(categoryId);
+    }
+}
+
 window.onload = () => {
     fetchCategories();
 }
+
+window.addEventListener('hashchange', () => {
+    checkCategoryRoute();
+});
