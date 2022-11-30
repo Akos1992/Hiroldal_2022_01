@@ -8,7 +8,19 @@ module.exports = {
                 if (err) {
                     reject(err);
                 } else {
-                    resolve(row);
+                    resolve(rows);
+                }
+            });
+        });
+    },
+    readNewsByCategoryId(categoryId) {
+        const catId = parseInt(categoryId);
+        return new Promise((resolve, reject) => {
+            db.all(`SELECT * FROM CIKKEK WHERE KatID=${catId}`, (err, rows) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(rows);
                 }
             });
         });
