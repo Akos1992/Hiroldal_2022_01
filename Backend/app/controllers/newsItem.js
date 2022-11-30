@@ -8,6 +8,14 @@ router.get('/', (req, res) => {
     }).catch(err => {
         res.status(400).json({"error":err.message});
     })
+    
+});
+
+router.get('/categories/:categoryId', (req, res) => {
+    const categoryId = req.params.categoryId;
+    newsDAL.readNewsByCategoryId(categoryId)
+        .then(data => res.status(200).json(data))
+        .catch(err => res.status(400).json({"error":err.message}))
 });
 
 router.get('/:id', (req, res) => {
