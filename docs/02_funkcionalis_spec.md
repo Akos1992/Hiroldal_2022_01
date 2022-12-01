@@ -15,8 +15,8 @@
     - Lehessen keresni a hírek közt
     - Adatbázis a hírek könyebb kereshetősége és létrehozása érdekében
 
-4. Követelménylista
-    4.1 Átláthatóság
+4. **Követelménylista**
+    ***4.1 Átláthatóság***
         4.1.1 Megjelenés
             4.1.1 Letisztult megjelenés
             4.1.2 Logikus felépítés
