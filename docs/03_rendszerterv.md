@@ -17,17 +17,17 @@
 
 2. Adatbázis terv
 
- - News tábla
-    - id: szám
-    - főcím: szöveg
-    - kategória: categoryId
-    - hírszöveg: szöveg
-    - főhír: boolean
-    - szerző: szöveg
-    - kép: bináris
-
+ - CIKKEK tábla
+   - cikkID INTEGER PRIMARY KEY UNIQUE
+   - cikkCim TEXT (0, 100)
+   - cikkLead TEXT (0, 500)
+   - cikkTorzs TEXT (0, 4000)
+   - cikkSzerzo TEXT (0, 40)
+   - cikkDate DATETIME
+   - vezetoHir BOOLEAN (0, 1)
+   - katID INTEGER FOREIGN KEY
     Megkötések a táblához:
-    A News tábla categoryId-ja 1:N kapcsolatba van az Categories tábla id-jával. 
+    A CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatba van a KATEGORIAK tábla katID-jával. 
 
  - Categories tábla
     - id: szám
