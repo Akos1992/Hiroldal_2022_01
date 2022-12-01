@@ -30,7 +30,7 @@
          - cikkDate DATETIME
          - vezetoHir BOOLEAN DEFAULT FALSE
          - katID INTEGER FOREIGN KEY
-         - Megkötések a táblához: a CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatban van a KATEGORIA tábla katID-jával. 
+         - Megkötések a táblához: a CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatban van a KATEGORIA tábla katID-jával 
 
       - KATEGORIA tábla
          - katID INTEGER PRIMARY KEY UNIQUE
