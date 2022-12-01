@@ -16,26 +16,29 @@
 
 
 2. Adatbázis terv
+   - Adatbázis schema ábra feltöltve a 
+   - Híroldal cikkei: adatbázisba szervezve (sqlite)
+   - A cikkek tematikusan csoportosítva (kategóriák)
+   - Felhasználók bejelentkezési adatai is az adatbázisban tárolódnak
+   - Adatbázis táblák:
+      - CIKKEK tábla:
+         - cikkID INTEGER PRIMARY KEY UNIQUE
+         - cikkCim TEXT (100)
+         - cikkLead TEXT (500)
+         - cikkTorzs TEXT (4000)
+         - cikkSzerzo TEXT (40)
+         - cikkDate DATETIME
+         - vezetoHir BOOLEAN DEFAULT FALSE
+         - katID INTEGER FOREIGN KEY
+         - Megkötések a táblához: a CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatban van a KATEGORIA tábla katID-jával. 
 
- - CIKKEK tábla
-   - cikkID INTEGER PRIMARY KEY UNIQUE
-   - cikkCim TEXT (100)
-   - cikkLead TEXT (500)
-   - cikkTorzs TEXT (4000)
-   - cikkSzerzo TEXT (40)
-   - cikkDate DATETIME
-   - vezetoHir BOOLEAN DEFAULT FALSE
-   - katID INTEGER FOREIGN KEY
-    Megkötések a táblához:
-    A CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatba van a KATEGORIA tábla katID-jával. 
+      - KATEGORIA tábla
+         - katID INTEGER PRIMARY KEY UNIQUE
+         - katNev TEÍXT (40)
 
- - KATEGORIA tábla
-    - katID INTEGER PRIMARY KEY UNIQUE
-    - katNev TEÍXT (40)
-
- - USER tábla
-    - userID INTEGER PRIMARY KEY UNIQUE
-    - userNev TEXT (40)
-    - email TEXT (40)
-    - pword TEXT (4)
-    - regDatum DATETIME
+      - USER tábla
+         - userID INTEGER PRIMARY KEY UNIQUE
+         - userNev TEXT (40)
+         - email TEXT (40)
+         - pword TEXT (4)
+         - regDatum DATETIME
