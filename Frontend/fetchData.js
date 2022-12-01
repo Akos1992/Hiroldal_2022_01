@@ -6,22 +6,22 @@ let content = '';
 
 function fetchNews() {
     fetch(`${backendURL}/news`)
-    .then(response => {
-        response.json().then(jsonData => {
-            jsonData.forEach(p => {
-                if (!p.headline) {
-                    newsWithoutHeadline.push(p);
-                } else {
-                    headlineNews = p;
-                }
-            })
+        .then(response => {
+            response.json().then(jsonData => {
+                jsonData.forEach(p => {
+                    if (!p.headline) {
+                        newsWithoutHeadline.push(p);
+                    } else {
+                        headlineNews = p;
+                    }
+                })
 
-            if (headlineNews && headlineNews.length > 0) {
-                content = `
+                if (headlineNews && headlineNews.length > 0) {
+                    content = `
                         <div class="row">
                             <div class="col-sm">
                                 <a href="" style="text-decoration: none; width: 100%;" class="card">
-                                    <img class="card-img-top" src="" alt="Card image cap">
+                                    <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff&text=Ez+itt+egy+pr%C3%B3ba" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title">${headlineNews.cikkCim}</h5>
                                         <p class="card-text">${headlineNews.cikkLead}</p>
@@ -35,10 +35,10 @@ function fetchNews() {
                 }
 
                 newsWithoutHeadline.forEach(p => {
-                        content += `
+                    content += `
                         <div class="col-sm">
                             <a href="" style="text-decoration: none; width: 18rem;" class="card">
-                                <img class="card-img-top" src="" alt="Card image cap">
+                                <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff&text=Ez+itt+egy+pr%C3%B3ba" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">${p.cikkCim}</h5>
                                     <p class="card-text">${p.cikkLead}</p>
@@ -46,39 +46,39 @@ function fetchNews() {
                             </a>
                         </div>
                         `
-                    }
+                }
                 )
 
                 if (newsWithoutHeadline.length > 0) {
                     content += `</div>`;
                 }
                 document.querySelector("#main").innerHTML = content;
+            })
         })
-    })
-    .catch(err => {
-        alert('Hiba a hírek lekérésekor')
-        console.log(err);
-    })
+        .catch(err => {
+            alert('Hiba a hírek lekérésekor')
+            console.log(err);
+        })
 }
 
 function fetchCategories() {
     fetch(`${backendURL}/news/categories`)
-    .then(response => {
-        response.json().then(jsonData => {
-            for (const category of jsonData) {
-                var categoryHTML = `\
+        .then(response => {
+            response.json().then(jsonData => {
+                for (const category of jsonData) {
+                    var categoryHTML = `\
                     <li class="nav-item active"> \
                         <a class="nav-link" href="#/kat/${category.katID}">${category.katNev}</a> \
                     </li>`;
-                document.getElementById('categories').innerHTML += categoryHTML;
-            }
+                    document.getElementById('categories').innerHTML += categoryHTML;
+                }
+            })
+
         })
-        
-    })
-    .catch(err => {
-        alert('Hiba a kategóriák lekérésekor')
-        console.log(err);
-    })
+        .catch(err => {
+            alert('Hiba a kategóriák lekérésekor')
+            console.log(err);
+        })
 }
 
 function fetchNewsByCategory(categoryId) {
@@ -89,7 +89,7 @@ function fetchNewsByCategory(categoryId) {
                 for (const newsItem of news) {
                     var newsItemHTML = `<div class="col-sm">
                         <a href="" style="text-decoration: none; width: 18rem;" class="card">
-                            <img class="card-img-top" src="" alt="Card image cap">
+                            <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff&text=Ez+itt+egy+pr%C3%B3ba" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">${newsItem.cikkCim}</h5>
                                 <p class="card-text">${newsItem.cikkLead}</p>
@@ -98,7 +98,7 @@ function fetchNewsByCategory(categoryId) {
                     </div>`;
                     document.querySelector('#main').innerHTML = newsItemHTML;
                 }
-                
+
             });
         })
 }
