@@ -1,18 +1,18 @@
 1. Áttekintés
-    Az általunk fejlesztetett weboldal célja, hogy egy közös érdekeltségeken alapuló, szórakoztató, és boldogsággal feltöltésre kínáló híroldallal örvendez teshessük meg az ide látogatókat. 
-    A világ minden tájáról összegyűjtött infációkat szeretnénk megosztani az olvasókat.
-    A weoldal teljes mértékben magyar nyelvű lesz.
-    Az adminisztrátor fog tudni létrehozni új cikkeket, illetve szerkeszteni azokat. Más jogosultság rendszer kezdetben nem lesz kialakítva, későbbiekben olvasó szerepkörrel lesz kiegészítve.
+    Az általunk fejlesztetett weboldal célja, hogy egy közös érdekeltségeken alapuló, szórakoztató, és boldogsággal feltöltésre kínáló híroldallal örvendez teshessük meg online látogatóinkat. 
+    A világ minden szegletéről összegyűjtött információkat szeretnénk megosztani az olvasókkal.
+    A weboldal teljes mértékben magyar nyelvű lesz,
+    az adminisztrátor hozhat létre új cikkeket, illetve tudja majd szerkeszteni azokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban olvasó szerepkörrel lesz kiegészítve.
 
 2. Jelenlegi helyzet leírása
-    Szeretnénk felvenni a versenyt a már régi brandekkel, és későbbiekben le is körözni őket a hihető hírforrásainkkal. 
-    Az írott sajtó kihalófélben van, illetve a jelenlegi helyzetünket tekintve, egy internees újság jóval költséghatékonyabb is, így későbbiekben, ha nem sikerül elérni a célokat, nem okoz anyagi problémákat a jövőt tekintve. 
-    Jelenleg nincs egy kialakított brandünk, ezt nekünk kell azt megteremteni a nulláról. Saját logót kell tervezni, ami igazodik a mai kor szellemiségéhez és vonzóbbá teszi azt, nem csak a fiataloknak, hanem az idősebbeknek egyaránt. 
+    Szeretnénk felvenni a versenyt a régi brandekkel, majd a későbbiekben lekörözni őket a hihető és - a ma megszokott negatív szenzációhajhász mentalitással szemben tüntetőleg - pozitív szemléletű hírforrásainkkal. 
+    Az írott sajtó végóráit éli, mindemelett pedig a tervezők jelenlegi lehetőségeit tekintve, egy internetes újság jóval költséghatékonyabb is, így amennyiben tervünk nem érnek célt, ez nem fog anyagi problémát okozni. 
+    Jelenleg nincs egy kialakított brandünk, ezt nekünk kell megteremteni. Saját logót kell tervezni, ami igazodik a mai kor szellemiségéhez és vonzóvá tesz bennünket, nem csak a fiataloknak, hanem az idősebbeknek egyaránt. Saját jelszót, jelmondatot kell kitalálnunk, amely megragad az emberek emlékezetében, ott motoszkál az agyakban, és kíváncsivá teszi őket a "portékáink" iránt. 
 
 3. Vágyálom rendszer
-    A weboldalt úgy tervezzük, hogy ideális működése esetén a korábbi igények meghatározása alapján az alábbi funkciókat tartalmazza:
-    - Különböző kategóriák közül lehessen választani
-    - Lehessen keresni a hírek közt
+    A weboldalt úgy tervezzük, hogy - ideális működése - esetén a korábbi igények meghatározása alapján az alábbi funkciókat tartalmazza:
+    - Különböző kategóriák közül lehet választani
+    - Lehetséges keresni a hírek közt
     - Adatbázis a hírek könyebb kereshetősége és létrehozása érdekében
 
 4. **Követelménylista**
@@ -27,18 +27,18 @@
         - 4.2.1 Hírek kezelése
 
            -  4.2.1.1 Hírek
-                - 4.2.1.1.1 Admin képes legyen hírt létrehozni
-                - 4.2.1.1.1 Admin képes legyen hírt szerkeszteni                
-                - 4.2.1.1.1 Admin képes legyen hírt törölni
+                - 4.2.1.1.1 Admin képes hírt létrehozni
+                - 4.2.1.1.1 Admin képes hírt szerkeszteni                
+                - 4.2.1.1.1 Admin képes hírt törölni
             - 4.2.1.2 Adat szűrés
 				- 4.2.1.2.1 Admin képes szűrni a hírek között
 				- 4.2.1.2.1 Mindenki képes szűrni a hírek között
-				- 4.2.1.2.1 Lehetőség legyen kategóriák szerinti szűrés
+				- 4.2.1.2.1 Lehetőség legyen kategóriák szerinti szűrésre
 			- 4.2.1.2 Regisztráció
 				- 4.2.1.2.1 Regisztrációs űrlap
 				- 4.2.1.2.1 Csak olvasói regisztráció kezelése
 			
-5. Folgalomszótár
+5. Fogalomszótár
 	5.1 Szoftver
 		Szoftvernek nevezzük a számítógépre írt programokat. Szofver is olyan mint egy csoki, egy termék.
 		A szoftvereket programozók készítik. Szellemi termékek, kézzel nem megfoghatóak. 
@@ -85,9 +85,9 @@
 		- Szűrés
 
 7. Képernyő tervek
-	- kezdeti kézzel rajzolt tervek megvalósítása ADOBE INDESIGN szoftverre. Ezek a hubra feltöltésre kerülnek, mint protoptipus tervek.
-	- A főoldalon jelennek meg a weblap legfontosabb elemei. Vízszintes sávban helyezkednek el a kategóriák. Melyek kiemelt részét kepezik a weblapnak.
-	- Jobb felső sarokban található meg a bejelentkezés adminok részére egyelőre, később kialakításra kerül a USER-ek bejelentkezése is, hozzászólás funkció bekapcsolásához.
+	- kezdeti kézzel rajzolt tervek megvalósítása ADOBE INDESIGN szoftverre. Ezek a hubra feltöltésre kerülnek, mint prototípus tervek.
+	- A főoldalon jelennek meg a weblap legfontosabb elemei. Vízszintes sávban helyezkednek el a kategóriák. Melyek kiemelt részét képezik a weblapnak.
+	- Jobb felső sarokban található meg a bejelentkezés adminok részére (egyelőre), később kialakításra kerül a USER-ek bejelentkezése is, hozzászólás funkció bekapcsolásához.
 	- Rólunk fülre kattintva néhány sorban összefoglaljuk kik vagyunk, mit akarunk, hova tartunk.
 	- Keresés ablakra beírva lehet keresni a meglévő hírek között. 
 	- Kapcsolat fülön lehet üzenetet küldeni részünkre.
