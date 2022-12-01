@@ -21,7 +21,7 @@ function fetchNews() {
                         <div class="row">
                             <div class="col-sm">
                                 <a href="" style="text-decoration: none; width: 100%;" class="card">
-                                    <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff&text=Ez+itt+egy+pr%C3%B3ba" alt="Card image cap">
+                                    <img class="card-img-top" src="https://dummyimage.com/600x400/dbbfdb/8c00ff.jpg&text=Ez+itt+a+k%C3%A9p+helye" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title">${headlineNews.cikkCim}</h5>
                                         <p class="card-text">${headlineNews.cikkLead}</p>
