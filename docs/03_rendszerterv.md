@@ -27,11 +27,11 @@
    - vezetoHir BOOLEAN (0, 1)
    - katID INTEGER FOREIGN KEY
     Megkötések a táblához:
-    A CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatba van a KATEGORIAK tábla katID-jával. 
+    A CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatba van a KATEGORIA tábla katID-jával. 
 
- - Categories tábla
-    - id: szám
-    - név: szöveg
+ - KATEGORIA tábla
+    - katID INTEGER PRIMARY KEY UNIQUE
+    - katNev TEÍXT (0, 40)
 
  - Uaers tábla
     - userID: szám
