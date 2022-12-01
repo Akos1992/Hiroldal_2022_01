@@ -19,22 +19,22 @@
 
  - CIKKEK tábla
    - cikkID INTEGER PRIMARY KEY UNIQUE
-   - cikkCim TEXT (0, 100)
-   - cikkLead TEXT (0, 500)
-   - cikkTorzs TEXT (0, 4000)
-   - cikkSzerzo TEXT (0, 40)
+   - cikkCim TEXT (100)
+   - cikkLead TEXT (500)
+   - cikkTorzs TEXT (4000)
+   - cikkSzerzo TEXT (40)
    - cikkDate DATETIME
-   - vezetoHir BOOLEAN (0, 1)
+   - vezetoHir BOOLEAN DEFAULT FALSE
    - katID INTEGER FOREIGN KEY
     Megkötések a táblához:
     A CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatba van a KATEGORIA tábla katID-jával. 
 
  - KATEGORIA tábla
     - katID INTEGER PRIMARY KEY UNIQUE
-    - katNev TEÍXT (0, 40)
+    - katNev TEÍXT (40)
 
- - Uaers tábla
-    - userID: szám
-    - username: szöveg
-    - email: szöveg
-    - jelszó: szöveg
+ - USER tábla
+    - userID: INTEGER PRIMARY KEY UNIQUE
+    - userNev: TEXT (40)
+    - email: TEXT (40)
+    - jelszó: TEXT (4)
