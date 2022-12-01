@@ -1,5 +1,66 @@
 const backendURL = 'http://localhost:3000';
 
+let newsWithoutHeadline = [];
+let headlineNews;
+let content = '';
+
+function fetchNews() {
+    fetch(`${backendURL}/news`)
+    .then(response => {
+        response.json().then(jsonData => {
+            jsonData.forEach(p => {
+                if (!p.headline) {
+                    newsWithoutHeadline.push(p);
+                } else {
+                    headlineNews = p;
+                }
+            })
+
+            if (headlineNews && headlineNews.length > 0) {
+                content = `
+                        <div class="row">
+                            <div class="col-sm">
+                                <a href="" style="text-decoration: none; width: 100%;" class="card">
+                                    <img class="card-img-top" src="" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">${headlineNews.cikkCim}</h5>
+                                        <p class="card-text">${headlineNews.cikkLead}</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        `}
+                if (newsWithoutHeadline.length > 0) {
+                    content += `<div class="row">`;
+                }
+
+                newsWithoutHeadline.forEach(p => {
+                        content += `
+                        <div class="col-sm">
+                            <a href="" style="text-decoration: none; width: 18rem;" class="card">
+                                <img class="card-img-top" src="" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">${p.cikkCim}</h5>
+                                    <p class="card-text">${p.cikkLead}</p>
+                                </div>
+                            </a>
+                        </div>
+                        `
+                    }
+                )
+
+                if (newsWithoutHeadline.length > 0) {
+                    content += `</div>`;
+                }
+                document.querySelector("#main").innerHTML = content;
+        })
+    })
+    .catch(err => {
+        alert('Hiba a hírek lekérésekor')
+        console.log(err);
+    })
+}
+
 function fetchCategories() {
     fetch(`${backendURL}/news/categories`)
     .then(response => {
