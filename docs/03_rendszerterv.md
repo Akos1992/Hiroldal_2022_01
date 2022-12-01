@@ -34,7 +34,8 @@
     - katNev TEÍXT (40)
 
  - USER tábla
-    - userID: INTEGER PRIMARY KEY UNIQUE
-    - userNev: TEXT (40)
-    - email: TEXT (40)
-    - jelszó: TEXT (4)
+    - userID INTEGER PRIMARY KEY UNIQUE
+    - userNev TEXT (40)
+    - email TEXT (40)
+    - pword TEXT (4)
+    - regDatum DATETIME
