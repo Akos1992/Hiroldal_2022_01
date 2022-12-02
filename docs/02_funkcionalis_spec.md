@@ -90,3 +90,21 @@
     Lentebb képernyőképek megtekinthetőek
 # 8. Követelmény megfelelés
     A képernyőtervben minden, a követelményspecifikációban megfogalmazott vágyálom megjelenik. 
+## 9. 🛠 Felhasznált eszközök
+Javascript, HTML, CSS, Bootsrap, Node.js 
+
+## 10. Képmetszetek
+
+![App Screenshot](https://i.imgur.com/X95NRSU.png)
+
+
+## 11. Szerzők
+
+- Csík Ákos
+- Maró Melinda
+- Kenyeres Tamás
+- Schmidt Anikó
+## 12. Visszajelzés
+
+Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
+johirportal@portalok.hu
