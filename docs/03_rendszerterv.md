@@ -46,7 +46,7 @@
 				Kenyeres Tamás
 				Maró Melinda
 				Schmidt Anikó
-	Minden részlegnél az első megnevezett személy végzi a koordinálást, a többiek támogató szerepkört vesznek fel.      
+	Minden részlegnél az első megnevezett személy a fő felelős, a többiek támogató szerepkört vesznek fel.      
 
 # 4. Ütemterv
 	Ütemterv szerint, minden héten kettő alkalommal csoportmegbeszélés létrehozása online meeting keretében a Microsoft Teams program segítségével.
