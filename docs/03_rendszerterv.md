@@ -49,7 +49,7 @@ Javascript, HTML, CSS, Bootsrap, Node.js, MYSQL Workbench, SQLite
 
 ## 4. Képmetszetek
 
-![App Screenshot](https://i.imgur.com/eIJG3nA.png)
+![App Screenshot](https://i.imgur.com/Txq56wM.png)
 
 
 ## 5. Szerzők
