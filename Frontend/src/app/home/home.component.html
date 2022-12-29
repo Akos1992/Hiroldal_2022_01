@@ -1,8 +1,10 @@
+<app-header (categoryClickEmitter)="onCategoryClickEmitter($event)"></app-header>
+
 <div class="container">
     <main>
         <div class="row">
             <div [ngClass]="news.vezetoHir ? '' : 'col-sm'" *ngFor="let news of newsList | async">
-                <a href="" style="text-decoration: none;" class="card">
+                <a [ngClass]="news.vezetoHir ? 'width100' : 'width18rem'" href="" style="text-decoration: none;" class="card">
                     <img class="card-img-top" src="https://dummyimage.com/600x400/dbbfdb/8c00ff&text=Ez+itt+a+k%C3%A9p+helye" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">{{news.cikkCim}}</h5>
@@ -13,3 +15,5 @@
         </div>
     </main>
 </div>
+
+<app-footer></app-footer>

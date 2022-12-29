@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Category } from '../model/category';
 import { News } from '../model/news';
+import { NewsService } from '../service/news.service';
 
 @Component({
   selector: 'app-home',
@@ -13,10 +14,13 @@ export class HomeComponent implements OnInit {
 
   newsList!: Observable<News[]>;
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private newsService: NewsService) {}
 
   ngOnInit(): void {
-    this.newsList = this.httpClient.get<News[]>("/news");
+    this.newsList = this.newsService.getNews();
   }
 
+  onCategoryClickEmitter(katID: number) {
+    this.newsList = this.newsService.getNews(katID);
+  }
 }
