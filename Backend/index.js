@@ -3,11 +3,11 @@ const path = require('path');
 
 var app = express();
 
-const staticRoot = '../Frontend';
+const staticRoot = '../Frontend/dist/hiroldal';
 const staticPath = '/static';
 
 const fullStaticRoot = path.join(__dirname, staticRoot);
-app.use(staticPath, express.static(fullStaticRoot));
+// app.use(staticPath, express.static(fullStaticRoot));
 app.use(express.json())
 
 
@@ -26,8 +26,8 @@ var server = app.listen(3000, function () {
     console.log("Indítás...");
     if (process.env.NODE_ENV !== 'production') {
         console.log('Híroldal szerver fut: http://%s:%s', host, port)
-        console.log(`Weboldal:\thttp://${host}:${port}${staticPath}`);
-        console.log(`\t\thttp://localhost:${port}${staticPath}`);
+        // console.log(`Weboldal:\thttp://${host}:${port}${staticPath}`);
+        // console.log(`\t\thttp://localhost:${port}${staticPath}`);
     }
     console.log("A szerver elindult");
 

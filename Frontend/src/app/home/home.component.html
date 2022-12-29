@@ -1,0 +1,16 @@
+<div class="container">
+    <main>
+        <div class="row">
+            <div class="col-sm" *ngFor="let news of newsList | async">
+                <a href="" style="text-decoration: none; width: 100%;" class="card">
+                    <!-- width: 18rem; -->
+                    <img class="card-img-top" src="https://dummyimage.com/600x400/dbbfdb/8c00ff&text=Ez+itt+a+k%C3%A9p+helye" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{news.cikkCim}}</h5>
+                        <p class="card-text">{{news.cikkLead}}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+</div>
