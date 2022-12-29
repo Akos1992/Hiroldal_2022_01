@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Category } from '../model/category';
 import { News } from '../model/news';
 
 @Component({
@@ -15,7 +16,7 @@ export class HomeComponent implements OnInit {
   constructor(private httpClient: HttpClient) {}
 
   ngOnInit(): void {
-    this.newsList = this.httpClient.get<News[]>("/news")
+    this.newsList = this.httpClient.get<News[]>("/news");
   }
 
 }

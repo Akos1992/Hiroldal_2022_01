@@ -9,6 +9,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Összes</a>
         </li>
+        <li class="nav-item active" *ngFor="let category of categoryList | async">
+          <a class="nav-link" href="#/kat/${category.katID}">{{category.katNev}}</a>
+        </li>
       </ul>
     </div>
     <button id="ujHirButton" type="button" style="margin:10px 20px; background-color:rgb(198, 138, 197); border-radius: 5px; border:1px solid;
