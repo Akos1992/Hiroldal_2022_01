@@ -1,0 +1,9 @@
+.toRight {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.margin10px {
+    margin: 10px;
+}

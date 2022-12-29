@@ -13,16 +13,9 @@ import { NewsService } from '../service/news.service';
 })
 export class HeaderComponent implements OnInit {
 
-  categoryList!: Observable<Category[]>;
-  @Output() categoryClickEmitter = new EventEmitter<number>();
-
-  constructor(private categoriesService: CategoriesService) {}
+  constructor() {}
 
   ngOnInit(): void {
-    this.categoryList = this.categoriesService.getCategories();
-  }
-
-  categoryClick(katID?: number) {
-    this.categoryClickEmitter.emit(katID)
+    
   }
 }

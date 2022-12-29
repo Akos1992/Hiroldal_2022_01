@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Category } from '../model/category';
 import { News } from '../model/news';
+import { CategoriesService } from '../service/categories.service';
 import { NewsService } from '../service/news.service';
 
 @Component({
@@ -13,14 +14,16 @@ import { NewsService } from '../service/news.service';
 export class HomeComponent implements OnInit {
 
   newsList!: Observable<News[]>;
+  categoryList!: Observable<Category[]>;
 
-  constructor(private newsService: NewsService) {}
+  constructor(private newsService: NewsService, private categoriesService: CategoriesService) {}
 
   ngOnInit(): void {
     this.newsList = this.newsService.getNews();
+    this.categoryList = this.categoriesService.getCategories();
   }
 
-  onCategoryClickEmitter(katID: number) {
+  categoryClick(katID?: number) {
     this.newsList = this.newsService.getNews(katID);
   }
 }
