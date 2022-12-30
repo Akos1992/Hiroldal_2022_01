@@ -13,9 +13,16 @@ import { NewsService } from '../service/news.service';
 })
 export class HeaderComponent implements OnInit {
 
+  isLoggedIn:string | null;
+
   constructor() {}
 
   ngOnInit(): void {
-    
+    this.isLoggedIn = localStorage.getItem('isLoggedIn');
+  }
+
+  kijelentkezes() {
+    localStorage.clear();
+    this.isLoggedIn = null;
   }
 }

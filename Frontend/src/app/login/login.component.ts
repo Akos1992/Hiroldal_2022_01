@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  bejelentkezes() {
+    localStorage.setItem('isLoggedIn', 'true')
+  }
+
 }
