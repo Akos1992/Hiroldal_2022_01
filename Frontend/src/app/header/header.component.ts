@@ -22,6 +22,10 @@ export class HeaderComponent implements OnInit {
     this.isLoggedIn = localStorage.getItem('isLoggedIn');
   }
 
+  addNews() {
+    this.router.navigateByUrl("/news/" + 0);
+  }
+
   kijelentkezes() {
     localStorage.clear();
     this.router.navigate(['/bejelentkezes'])

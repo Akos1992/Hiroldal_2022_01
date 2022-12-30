@@ -6,7 +6,7 @@
   </button>
   <div class="d-inline-flex toRight">
     <button id="ujHirButton" type="button" style="margin:10px 20px; background-color:rgb(198, 138, 197); border-radius: 5px; border:1px solid;
-    color: white" *ngIf="isLoggedIn">Új hír hozzáadása</button>
+    color: white" *ngIf="isLoggedIn" (click)="addNews()">Új hír hozzáadása</button>
     <a routerLink="/bejelentkezes" class="margin10px" *ngIf="!isLoggedIn">Bejelentkezés</a>
     <a routerLink="/" class="margin10px" (click)="kijelentkezes()" *ngIf="isLoggedIn">Kijelentkezés</a>
   </div>
