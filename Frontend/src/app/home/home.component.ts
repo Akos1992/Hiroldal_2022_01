@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Category } from '../model/category';
 import { News } from '../model/news';
@@ -17,7 +18,7 @@ export class HomeComponent implements OnInit {
   categoryList!: Observable<Category[]>;
   isLoggedIn: string | null;
 
-  constructor(private newsService: NewsService, private categoriesService: CategoriesService) {}
+  constructor(private newsService: NewsService, private categoriesService: CategoriesService, private router: Router) {}
 
   ngOnInit(): void {
     this.newsList = this.newsService.getNewsByCategoryId();
@@ -27,6 +28,14 @@ export class HomeComponent implements OnInit {
 
   categoryClick(katID?: number) {
     this.newsList = this.newsService.getNewsByCategoryId(katID);
+  }
+
+  openNews() {
+    this.router.navigateByUrl("bejelentkezes");
+  }
+
+  editClickHandler(id:number) {
+    this.router.navigateByUrl("/news/" + id);
   }
 
   delete(id:number) {

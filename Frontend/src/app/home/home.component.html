@@ -17,7 +17,8 @@
     <main>
         <div class="row">
             <div [ngClass]="news.vezetoHir ? '' : 'col-sm'" *ngFor="let news of newsList | async">
-                <a [ngClass]="news.vezetoHir ? 'width100' : 'width18rem'" href="" style="text-decoration: none;" class="card">
+                <a [ngClass]="news.vezetoHir ? 'width100' : 'width18rem'" style="cursor: pointer;text-decoration: none;" class="card"
+                  (click)="openNews()">
                     <img class="card-img-top" src="assets/A-team.jfif" alt="Card image cap">
                     <div class="card-body">
                       <div class="spaceBetween">
@@ -26,8 +27,8 @@
                           <p class="card-text">{{news.cikkLead}}</p>
                         </div>
                         <div>
-                          <i class="fa-solid fa-pencil" *ngIf="isLoggedIn" routerLink="/news/{{news.cikkID}}"></i>
-                          <i class="fa-solid fa-trash" *ngIf="isLoggedIn" (click)="delete(news.cikkID)"></i>
+                          <i class="fa-solid fa-pencil" style="cursor: pointer;" *ngIf="isLoggedIn" (click)="$event.stopPropagation();editClickHandler(news.cikkID)"></i>
+                          <i class="fa-solid fa-trash" style="cursor: pointer;" *ngIf="isLoggedIn" (click)="delete(news.cikkID)"></i>
                         </div>
                       </div>
                     </div>
