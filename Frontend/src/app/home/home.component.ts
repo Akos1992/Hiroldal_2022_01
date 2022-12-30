@@ -30,8 +30,8 @@ export class HomeComponent implements OnInit {
     this.newsList = this.newsService.getNewsByCategoryId(katID);
   }
 
-  openNews() {
-    this.router.navigateByUrl("bejelentkezes");
+  openNews(id:number) {
+    this.router.navigateByUrl("/content/" + id);
   }
 
   editClickHandler(id:number) {

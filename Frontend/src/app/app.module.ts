@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NewsDetailComponent } from './news-detail/news-detail.component';
 import { FormsModule } from '@angular/forms';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     AdatvedelmiComponent,
     ImpresszumComponent,
     HomeComponent,
-    NewsDetailComponent
+    NewsDetailComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
