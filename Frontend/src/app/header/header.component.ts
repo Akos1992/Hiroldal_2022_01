@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Category } from '../model/category';
 import { News } from '../model/news';
@@ -15,7 +16,7 @@ export class HeaderComponent implements OnInit {
 
   isLoggedIn:string | null;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.isLoggedIn = localStorage.getItem('isLoggedIn');
@@ -23,6 +24,6 @@ export class HeaderComponent implements OnInit {
 
   kijelentkezes() {
     localStorage.clear();
-    this.isLoggedIn = null;
+    this.router.navigate(['/bejelentkezes'])
   }
 }

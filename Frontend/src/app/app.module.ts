@@ -11,6 +11,8 @@ import { ImpresszumComponent } from './impresszum/impresszum.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NewsDetailComponent } from './news-detail/news-detail.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     LoginComponent,
     AdatvedelmiComponent,
     ImpresszumComponent,
-    HomeComponent
+    HomeComponent,
+    NewsDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -26,8 +26,8 @@
                           <p class="card-text">{{news.cikkLead}}</p>
                         </div>
                         <div>
-                          <i class="fa-solid fa-pencil" (click)="edit(news)"></i>
-                          <i class="fa-solid fa-trash" (click)="delete(news.cikkID)"></i>
+                          <i class="fa-solid fa-pencil" *ngIf="isLoggedIn" routerLink="/news/{{news.cikkID}}"></i>
+                          <i class="fa-solid fa-trash" *ngIf="isLoggedIn" (click)="delete(news.cikkID)"></i>
                         </div>
                       </div>
                     </div>

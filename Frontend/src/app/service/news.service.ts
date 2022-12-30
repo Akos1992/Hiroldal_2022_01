@@ -10,7 +10,11 @@ export class NewsService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getNews(katID?: number):Observable<News[]> {
+  getNewsById(id:number):Observable<News> {
+    return this.httpClient.get<News>("/news/" + id);
+  }
+
+  getNewsByCategoryId(katID?: number):Observable<News[]> {
     let news: Observable<News[]>;
     
     if (katID) 

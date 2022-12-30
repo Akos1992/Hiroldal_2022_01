@@ -15,20 +15,18 @@ export class HomeComponent implements OnInit {
 
   newsList!: Observable<News[]>;
   categoryList!: Observable<Category[]>;
+  isLoggedIn: string | null;
 
   constructor(private newsService: NewsService, private categoriesService: CategoriesService) {}
 
   ngOnInit(): void {
-    this.newsList = this.newsService.getNews();
+    this.newsList = this.newsService.getNewsByCategoryId();
     this.categoryList = this.categoriesService.getCategories();
+    this.isLoggedIn = localStorage.getItem('isLoggedIn');
   }
 
   categoryClick(katID?: number) {
-    this.newsList = this.newsService.getNews(katID);
-  }
-
-  edit(news:News){
-    this.newsService.editNews(news);
+    this.newsList = this.newsService.getNewsByCategoryId(katID);
   }
 
   delete(id:number) {

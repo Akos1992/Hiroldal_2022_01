@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ImpresszumComponent } from './impresszum/impresszum.component';
 import { LoginComponent } from './login/login.component';
+import { NewsDetailComponent } from './news-detail/news-detail.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'news/:id', component: NewsDetailComponent },
   { path: 'bejelentkezes', component: LoginComponent },
   { path: 'adatvedelmi', component: AdatvedelmiComponent },
   { path: 'impresszum', component: ImpresszumComponent },
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
