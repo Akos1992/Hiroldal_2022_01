@@ -26,4 +26,12 @@ export class HomeComponent implements OnInit {
   categoryClick(katID?: number) {
     this.newsList = this.newsService.getNews(katID);
   }
+
+  edit(news:News){
+    this.newsService.editNews(news);
+  }
+
+  delete(id:number) {
+    this.newsService.deleteNews(id);
+  }
 }

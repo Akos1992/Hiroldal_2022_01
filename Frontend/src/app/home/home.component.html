@@ -18,10 +18,18 @@
         <div class="row">
             <div [ngClass]="news.vezetoHir ? '' : 'col-sm'" *ngFor="let news of newsList | async">
                 <a [ngClass]="news.vezetoHir ? 'width100' : 'width18rem'" href="" style="text-decoration: none;" class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/600x400/dbbfdb/8c00ff&text=Ez+itt+a+k%C3%A9p+helye" alt="Card image cap">
+                    <img class="card-img-top" src="assets/A-team.jfif" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">{{news.cikkCim}}</h5>
-                        <p class="card-text">{{news.cikkLead}}</p>
+                      <div class="spaceBetween">
+                        <div>
+                          <h5 class="card-title">{{news.cikkCim}}</h5>
+                          <p class="card-text">{{news.cikkLead}}</p>
+                        </div>
+                        <div>
+                          <i class="fa-solid fa-pencil" (click)="edit(news)"></i>
+                          <i class="fa-solid fa-trash" (click)="delete(news.cikkID)"></i>
+                        </div>
+                      </div>
                     </div>
                 </a>
             </div>

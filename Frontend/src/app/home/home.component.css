@@ -4,3 +4,7 @@
 .width18rem {
     width: 18rem;
 }
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}

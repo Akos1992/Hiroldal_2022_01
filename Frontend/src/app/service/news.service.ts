@@ -20,4 +20,16 @@ export class NewsService {
   
     return news;
   }
+
+  editNews(news: News) {
+    this.httpClient.post("news/", news).subscribe(response=> {
+      alert("Megszerkesztve!")
+    })
+  }
+
+  deleteNews(id: number) {
+    this.httpClient.delete("news/" + id).subscribe(response=> {
+      alert("Törölve!")
+    });
+  }
 }
