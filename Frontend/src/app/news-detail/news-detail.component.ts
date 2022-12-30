@@ -24,8 +24,8 @@ export class NewsDetailComponent implements OnInit {
   getNewsDetail() {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.newsService.getNewsById(id).subscribe(response => {
-      this.model = response;
-    })
+      this.model = response
+    });
   }
 
   onSubmit() { 

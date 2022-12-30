@@ -26,7 +26,9 @@ router.get('/categories/:categoryId', (req, res) => {
 
 router.get('/:id', (req, res) => {
     const newsItemId = req.params.id;
-    res.send(`News item with id ${newsItemId}`);
+    newsDAL.readNewsById(newsItemId)
+        .then(data => res.status(200).json(data))
+        .catch(err => res.status(400).json({ "error": err.message }))
 });
 
 module.exports = router;

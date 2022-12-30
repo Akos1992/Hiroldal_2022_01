@@ -35,6 +35,16 @@ module.exports = {
                 }
             });
         });
+    },
+    readNewsById(cikkId) {
+        return new Promise((resolve, reject) => {
+            db.get(`SELECT * FROM CIKKEK WHERE cikkId=${cikkId}`, (err, rows) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(rows);
+                }
+            });
+        });
     }
-
 };
