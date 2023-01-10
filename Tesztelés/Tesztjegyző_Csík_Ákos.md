@@ -1,4 +1,4 @@
-# <div align="center">Tesztjegyzőkönyv </div>
+# <div align="center">Tesztjegyzőkönyv - Csík Ákos </div>
 <hr>
 
 ## Tesztelést végezte:
