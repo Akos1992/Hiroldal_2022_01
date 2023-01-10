@@ -40,5 +40,6 @@ export class HomeComponent implements OnInit {
 
   delete(id:number) {
     this.newsService.deleteNews(id);
+    alert("Hír törölve!");
   }
 }
