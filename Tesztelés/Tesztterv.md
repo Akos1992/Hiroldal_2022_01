@@ -3,7 +3,7 @@
 <hr>
 
 ## Tesztelést végezték:
-| Információ    | Adat          |
+|               | Felhasználó   |
 | --- | ------- |
 | Név:          | Schmidt Anikó |
 | Neptun kód:   |               |
@@ -11,7 +11,7 @@
 | Szoftver:     |               |
 | OS            |               |
 
-| Információ    | Adat          |
+|               | Felhasználó   |
 | --- | ------- |
 | Név:          | Maró Melinda  |
 | Neptun kód:   |               |
@@ -19,7 +19,7 @@
 | Szoftver:     |               |
 | OS            |               |
 
-| Információ    | Adat          |
+|               | Felhasználó   |
 | --- | ------- |
 | Név:          | Kenyeres Tamás|
 | Neptun kód:   |               |
@@ -27,7 +27,7 @@
 | Szoftver:     |               |
 | OS            |               |
 
-| Információ    | Adat          |
+|               | Felhasználó   |
 | --- | ------- |
 | Név:          | Csík Ákos     |
 | Neptun kód:   | IEX9ME        |
