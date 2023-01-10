@@ -38,7 +38,7 @@
 
 ## 1. szerver futtatás
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Angular szerver elindítása |          |           |           |           |
 | 2.    | Node.Js indítása |          |           |           |           |
 | 3.    | Localhost:4200 szerver elindítás egy böngészőben|          |           |           |           |
@@ -47,7 +47,7 @@
 
 ## 2. Hír olvasás tesztelése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Weboldal megnyitása |
 | 2.    | A home oldalon az aktuálisan egy aktuálisan feltöltött hír megnyitása olvasás módban (szövegmezőre kattintva) |          |           |           |           |
 | 3.    | A bal felső gombbal visszanavigálhatunk a kezdőlapra |          |           |           |           |
@@ -60,7 +60,7 @@
 
 ## 3. Kategóriák tesztelése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Weboldal megnyitása |          |           |           |           |
 | 2.    | A kezdőlapon találhartó fejlécen elhelyezett kategóriák vizsgálata |          |           |           |           |
 | 3.    | Összes megnyitható? |          |           |           |           |
@@ -78,7 +78,7 @@
 
 ## 4. Bejelentkezés tesztelése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Weboldal megnyitása |          |           |           |           |
 | 2.    | Jobb felső sarokban található Bejeltkezés átírányít a bejelentkezés felületre |          |           |           |           |
 | 3.    | Email cím mezőben beírható érték?|          |           |           |           |
@@ -91,7 +91,7 @@
 
  ## Új hír hozzáadása
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Weboldal megnyitása |          |           |           |           |
 | 2.    | Bejelentkezés után megjelenik -e az új hír létrehozása ikon ? |          |           |           |           |
 | 3.    | Megnyitja-e az ikon az új hír létrehozása részt? |          |           |           |           |
@@ -106,7 +106,7 @@
 
 ## Meglévő hír szerkesztése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Weboldal megnyitása |          |           |           |           |
 | 2.    | Bejelentkezés után megjelenik -e a hírek mellett a szerkesztés ikonja ? |          |           |           |           |
 | 3.    | Az ikon megnyomásakor belépünk a szerkesztési felületre?|          |           |           |           |
@@ -125,7 +125,7 @@
 
 ## Meglévő hír törlése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Weboldal megnyitása |          |           |           |           |
 | 2.    | Bejelentkezés után megjelenik -e a hírek mellett a törlés ikonja ? |          |           |           |           |
 | 3.    | Törlés ikonra kattintva kitörlődik a hír az oldalról ? |          |           |           |           |
@@ -135,7 +135,7 @@
 
 ## Adatvédelmi tájékoztató
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Weboldal megnyitása |          |           |           |           |
 | 2.    | A kezdőlap alján található az Adatvédelmi tájékoztató minden esetben, minden oldalon megjelenik? |          |           |           |           |
 | 3.    | Megnyitható az adatvédelmi tájékoztató minden oldalról? |          |           |           |           |
@@ -144,7 +144,7 @@
 
 ## Impresszum
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
-| --- | ------- |
+| --- | ------- | - | - | - | - |
 | 1.    | Weboldal megnyitása |          |           |           |           |
 | 2.    | A kezdőlap alján található az Impresszum minden esetben, minden oldalon megjelenik? |          |           |           |           |
 | 3.    | Megnyitható az Impresszum minden oldalról? |          |           |           |           |
