@@ -11,18 +11,21 @@
 | Szoftver:     |               |
 | OS            |               |
 
+| Információ    | Adat          |
 | Név:          | Maró Melinda  |
 | Neptun kód:   |               |
 | Dátum:        | 2023.01.10    |
 | Szoftver:     |               |
 | OS            |               |
 
+| Információ    | Adat          |
 | Név:          | Kenyeres Tamás|
 | Neptun kód:   |               |
 | Dátum:        | 2023.01.10    |
 | Szoftver:     |               |
 | OS            |               |
 
+| Információ    | Adat          |
 | Név:          | Csík Ákos     |
 | Neptun kód:   | IEX9ME        |
 | Dátum:        | 2023.01.10    |
