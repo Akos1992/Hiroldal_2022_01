@@ -1,5 +1,5 @@
 
-# <div align="center">Tesztjegyzőkönyv </div>
+# <div align="center">Teszt</div>
 <hr>
 
 ## Tesztelést végezték:
