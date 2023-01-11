@@ -64,7 +64,7 @@ belül pedig a terminálba szükséges feltelepíteni az npm szervert. Ehhez az 
 ```
     
 ## 9. 🛠 Felhasznált eszközök
-Javascript, HTML, CSS, Bootsrap, Node.js 
+HTML, CSS, Bootsrap, Node.js, TypeScript, Angular, SQLite 
 
 ## 10. Szerzők
 
