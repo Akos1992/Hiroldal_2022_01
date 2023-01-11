@@ -1,6 +1,6 @@
-# 1. Jelenlegi helyzet leírása
+# 1. Áttekintés
     Az általunk fejlesztetett weboldal célja, hogy egy közös érdekeltségeken alapuló, szórakoztató, és boldogsággal feltöltésre 
-	kínáló híroldallal örvendez teshessük meg online látogatóinkat. A világ minden szegletéről összegyűjtött információkat szeretnénk megosztani az olvasókkal.
+	kínáló híroldallal örvendeztethessük meg online látogatóinkat. A világ minden szegletéről összegyűjtött információkat szeretnénk megosztani az olvasókkal.
     A weboldal teljes mértékben magyar nyelvű lesz,
     az adminisztrátor hozhat létre új cikkeket, illetve tudja majd szerkeszteni azokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban olvasó szerepkörrel lesz kiegészítve.
 # 2. Jelenlegi helyzet leírása
@@ -11,7 +11,7 @@
     A weboldalt úgy tervezzük, hogy - ideális működése - esetén a korábbi igények meghatározása alapján az alábbi funkciókat tartalmazza:
         - Különböző kategóriák közül lehet választani
         - Lehetséges keresni a hírek közt
-        - Adatbázis a hírek könyebb kereshetősége és létrehozása érdekében
+        - Adatbázis a hírek könnyebb kereshetősége és létrehozása érdekében
 # 4. Követelménylista
       - Átláthatóság
         - Megjelenés
