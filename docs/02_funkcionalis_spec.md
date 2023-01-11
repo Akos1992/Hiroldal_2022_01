@@ -1,6 +1,7 @@
 # 1. Áttekintés
-    Az általunk fejlesztetett weboldal célja, hogy egy közös érdekeltségeken alapuló, szórakoztató, és boldogsággal feltöltésre 
-	kínáló híroldallal örvendeztethessük meg online látogatóinkat. A világ minden szegletéről összegyűjtött információkat szeretnénk megosztani az olvasókkal.
+    Az általunk fejlesztetett weboldal célja, hogy a szakmai cikkeken kívül a laikusok számára is érthető és
+	szórakoztató anyagok is szerepeljenek a kínálatban. 
+	A cikkek tematikáját illetően több kategóriátba soroljuk a cikkeket.
     A weboldal teljes mértékben magyar nyelvű lesz,
     az adminisztrátor hozhat létre új cikkeket, illetve tudja majd szerkeszteni azokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban olvasó szerepkörrel lesz kiegészítve.
 # 2. Jelenlegi helyzet leírása
