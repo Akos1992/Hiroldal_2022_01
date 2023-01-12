@@ -1,9 +1,9 @@
 # 1. Áttekintés
     Az általunk fejlesztetett weboldal célja, hogy a szakmai cikkeken kívül a laikusok számára is érthető és
-	szórakoztató anyagok is szerepeljenek a kínálatban. 
-	A cikkek tematikáját illetően kategóriátba - rovatokba szervezzük azokat.
+	szórakoztató anyagok is szerepeljenek a kínálatban: hitelesség szórakoztatóan. 
+	A cikkek tematikáját illetően kategóriákba - rovatokba szervezzük azokat.
     A weboldal teljes mértékben magyar nyelvű lesz,
-    az adminisztrátor hozhat létre új cikkeket, illetve módosíthatja a már élesített anyagokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban felhasználói regisztrációhoz kívánjuk kötni az egyedi hírdetésmentes tartalmakat elérhetőségét.
+    az adminisztrátor hozhat létre új cikkeket, illetve módosíthatja a már élesített anyagokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban felhasználói regisztrációhoz kívánjuk kötni az egyedi hírdetésmentes tartalmak elérhetőségét.
 # 2. Jelenlegi helyzet leírása
     Szeretnénk felvenni a versenyt a régi brandekkel, majd a későbbiekben lekörözni őket a hihető és - a ma megszokott negatív szenzációhajhász mentalitással szemben tüntetőleg - pozitív szemléletű hírforrásainkkal. 
     Az írott sajtó végóráit éli, mindemelett pedig a tervezők jelenlegi lehetőségeit tekintve, egy internetes újság jóval költséghatékonyabb is, így amennyiben tervünk nem érnek célt, ez nem fog anyagi problémát okozni. 
