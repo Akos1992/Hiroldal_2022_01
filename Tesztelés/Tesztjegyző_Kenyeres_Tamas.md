@@ -21,10 +21,10 @@
 |               | Felhasználó   |
 | --- | ------- |
 | Név:          | Kenyeres Tamás|
-| Neptun kód:   |               |
+| Neptun kód:   | OKLI72        |
 | Dátum:        | 2023.01.10    |
 | Szoftver:     |               |
-| OS            |               |
+| OS            | Windows 10 Pro 22H2 |
 
 |               | Felhasználó   |
 | --- | ------- |
@@ -39,22 +39,22 @@
 ## 1. szerver futtatás
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
 | --- | ------- | - | - | - | - |
-| 1.    | Angular szerver elindítása |          |           |           |           |
-| 2.    | Node.Js indítása |          |           |           |           |
-| 3.    | Localhost:4200 szerver elindítás egy böngészőben|          |           |           |           |
+| 1.    | Angular szerver elindítása |          |           | OK |           |
+| 2.    | Node.Js indítása |          |           | OK |           |
+| 3.    | Localhost:4200 szerver elindítás egy böngészőben |  |           | OK          |           |
 
 <hr>
 
 ## 2. Hír olvasás tesztelése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
 | --- | ------- | - | - | - | - |
-| 1.    | Weboldal megnyitása |
-| 2.    | A home oldalon az aktuálisan egy aktuálisan feltöltött hír megnyitása olvasás módban (szövegmezőre kattintva) |          |           |           |           |
-| 3.    | A bal felső gombbal visszanavigálhatunk a kezdőlapra |          |           |           |           |
-| 4.    | Ezt a műveletet folytatva az összes akutális híren végigvisszük a folyamatot |          |           |           |           |
-| 5.    | A home oldalon az aktuálisan egy aktuálisan feltöltött hír megnyitása olvasás módban (Képre kattintva) |          |           |           |           |
-| 6.    | A bal felső gombbal visszanavigálhatunk a kezdőlapra |          |           |           |           |
-| 7.    | Ezt a műveletet folytatva az összes akutális híren végigvisszük a folyamatot |          |           |           |           |
+| 1.    | Weboldal megnyitása | | | OK |
+| 2.    | A home oldalon az aktuálisan egy aktuálisan feltöltött hír megnyitása olvasás módban (szövegmezőre kattintva) |          |           | OK |           |
+| 3.    | A bal felső gombbal visszanavigálhatunk a kezdőlapra |          |           | OK |           |
+| 4.    | Ezt a műveletet folytatva az összes akutális híren végigvisszük a folyamatot |          |           | OK |           |
+| 5.    | A home oldalon az aktuálisan egy aktuálisan feltöltött hír megnyitása olvasás módban (Képre kattintva) |          |           | OK |           |
+| 6.    | A bal felső gombbal visszanavigálhatunk a kezdőlapra |          |           | OK |           |
+| 7.    | Ezt a műveletet folytatva az összes akutális híren végigvisszük a folyamatot |          |           | OK |           |
 
 <hr>
 
