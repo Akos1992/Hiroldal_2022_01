@@ -35,6 +35,9 @@
 			- Regisztráció
 				- Regisztrációs űrlap
 				- Csak olvasói regisztráció kezelése
+			- Bejelentkezés
+				- Adminok részére - admin jogok
+				- Felhasználók részére - user jogok
 # 5. Fogalomszótár
     5.1 Szoftver
 		Szoftvernek nevezzük a számítógépre írt programokat. Szofver is olyan mint egy csoki, egy termék.
