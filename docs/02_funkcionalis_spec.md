@@ -5,7 +5,7 @@
     A weboldal teljes mértékben magyar nyelvű lesz,
     az adminisztrátor hozhat létre új cikkeket, illetve módosíthatja a már élesített anyagokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban felhasználói regisztrációhoz kívánjuk kötni az egyedi hírdetésmentes tartalmak elérhetőségét.
 # 2. Jelenlegi helyzet leírása
-    Szeretnénk felvenni a versenyt a régi brandekkel, majd a későbbiekben lekörözni őket a hihető és - a ma megszokott negatív szenzációhajhász mentalitással szemben tüntetőleg - pozitív szemléletű hírforrásainkkal. 
+    Számtalan hírportál található a magyar online sajtó piacán, de többségük ugyanazon séma mentén szerveződnek. Túlsúlyba kerültek a negatív hírek, a kattintásért vívott harcban elmosódtak az újságírás szakmai határai. 
     Az írott sajtó végóráit éli, mindemelett pedig a tervezők jelenlegi lehetőségeit tekintve, egy internetes újság jóval költséghatékonyabb is, így amennyiben tervünk nem érnek célt, ez nem fog anyagi problémát okozni. 
     Jelenleg nincs egy kialakított brandünk, ezt nekünk kell megteremteni. Saját logót kell tervezni, ami igazodik a mai kor szellemiségéhez és vonzóvá tesz bennünket, nem csak a fiataloknak, hanem az idősebbeknek egyaránt. Saját jelszót, jelmondatot kell kitalálnunk, amely megragad az emberek emlékezetében, ott motoszkál az agyakban, és kíváncsivá teszi őket a "portékáink" iránt. 
 # 3. Vágyálom rendszer
