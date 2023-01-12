@@ -6,8 +6,8 @@
     az adminisztrátor hozhat létre új cikkeket, illetve módosíthatja a már élesített anyagokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban felhasználói regisztrációhoz kívánjuk kötni az egyedi hírdetésmentes tartalmak elérhetőségét.
 # 2. Jelenlegi helyzet leírása
     Számtalan hírportál található a magyar online sajtó piacán, de többségük ugyanazon séma mentén szerveződnek. Túlsúlyba kerültek a negatív hírek, a kattintásért vívott harcban elmosódtak az újságírás szakmai határai. 
-    Az írott sajtó végóráit éli, mindemelett pedig a tervezők jelenlegi lehetőségeit tekintve, egy internetes újság jóval költséghatékonyabb is, így amennyiben tervünk nem érnek célt, ez nem fog anyagi problémát okozni. 
-    Jelenleg nincs egy kialakított brandünk, ezt nekünk kell megteremteni. Saját logót kell tervezni, ami igazodik a mai kor szellemiségéhez és vonzóvá tesz bennünket, nem csak a fiataloknak, hanem az idősebbeknek egyaránt. Saját jelszót, jelmondatot kell kitalálnunk, amely megragad az emberek emlékezetében, ott motoszkál az agyakban, és kíváncsivá teszi őket a "portékáink" iránt. 
+    Kevés, szinte egyik hírportál sem használja ki teljes mértékben a mai információtechnológia adta lehetőségeket sem a funkcionalitásban sem a látvány/dizájn területén. 
+    Saját hangvétel, saját brand építése a célunk, nemcsak az aktív hírfogyasztókat szeretnénk elérni, hanem új olvasókat is bevonzani. 
 # 3. Vágyálom rendszer
     A weboldalt úgy tervezzük, hogy - ideális működése - esetén a korábbi igények meghatározása alapján az alábbi funkciókat tartalmazza:
         - Különböző kategóriák közül lehet választani
