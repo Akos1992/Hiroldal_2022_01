@@ -69,8 +69,8 @@ HTML, CSS, Bootsrap, Node.js, TypeScript, Angular, SQLite
 ## 10. Szerzők
 
 - Csík Ákos
+- Kenyeres Tamás 
 - Maró Melinda
-- Kenyeres Tamás
 - Schmidt Anikó
 ## 11. Visszajelzés
 
