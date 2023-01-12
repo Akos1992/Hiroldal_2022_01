@@ -2,8 +2,7 @@
     Az általunk fejlesztetett weboldal célja, hogy a szakmai cikkeken kívül a laikusok számára is érthető és
 	szórakoztató anyagok is szerepeljenek a kínálatban: hitelesség szórakoztatóan. 
 	A cikkek tematikáját illetően kategóriákba - rovatokba szervezzük azokat.
-    A weboldal teljes mértékben magyar nyelvű lesz,
-    az adminisztrátor hozhat létre új cikkeket, illetve módosíthatja a már élesített anyagokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban felhasználói regisztrációhoz kívánjuk kötni az egyedi hírdetésmentes tartalmak elérhetőségét.
+    A weboldal teljes mértékben magyar nyelvű lesz, az adminisztrátor hozhat létre új cikkeket, illetve módosíthatja a már élesített anyagokat. Kezdetben más jogosultsági szintet nem alakítunk ki, később azonban felhasználói regisztrációhoz kívánjuk kötni az egyedi hírdetésmentes tartalmak elérhetőségét.
 # 2. Jelenlegi helyzet leírása
     Számtalan hírportál található a magyar online sajtó piacán, de többségük ugyanazon séma mentén szerveződnek. Túlsúlyba kerültek a negatív hírek, a kattintásért vívott harcban elmosódtak az újságírás szakmai határai. 
     Kevés, szinte egyik hírportál sem használja ki teljes mértékben a mai információtechnológia adta lehetőségeket sem a funkcionalitásban sem a látvány/dizájn területén. 
