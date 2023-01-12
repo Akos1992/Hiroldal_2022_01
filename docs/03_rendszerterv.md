@@ -103,7 +103,7 @@
 
 	Híroldal cikkei: adatbázisba szervezve (sqlite)
 	A cikkek tematikusan csoportosítva (kategóriák)
-	Felhasználók bejelentkezési adatai is az adatbázisban tárolódnak
+	Adminok bejelentkezési adatai is az adatbázisban tárolódnak
 
       - USER tábla
          - userID INTEGER PRIMARY KEY UNIQUE
@@ -132,7 +132,7 @@
 
 	Megkötések a táblához:
  	A KATEGORIA tábla katID attributuma, mint elsődleges kulcs 1:N 
-    Lentebb megtalálható képmetszettek menüpontben az adatbázishoz tartozó egyed-kapcsolat ábra.
+    Lentebb megtalálható képmetszetek menüpontben az adatbázishoz tartozó egyed-kapcsolat ábra.
 
 # 9. Backend végpontok(API leíró):
 
@@ -193,7 +193,7 @@
 	Telepíteni nem szükséges. Egy böngészőre van szüksége a felhasználónak. Elérhető lesz a www.johirportal.hu weboldalon
 
 # 15. Karbantartási terv
-	A weboldal folyamatos karbantartáson részesül. Lehetőség lesz a kapcsolatok oldalon a megadott elérhetőségen panasszal, esetlegesen javaslatokkal élni
+	A weboldal és az adatbázis tábláinak időszakonkénti karbantartása szükséges. Lehetőség lesz a kapcsolatok oldalon a megadott elérhetőségen panasszal, esetlegesen javaslatokkal élni
 	a fejleszték részére, amik javításra, fejlesztésre fognak kerülni. 
 
 
