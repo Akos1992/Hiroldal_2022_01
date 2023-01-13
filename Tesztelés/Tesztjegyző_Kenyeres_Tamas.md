@@ -61,65 +61,65 @@
 ## 3. Kategóriák tesztelése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
 | --- | ------- | - | - | - | - |
-| 1.    | Weboldal megnyitása |          |           |           |           |
-| 2.    | A kezdőlapon találhartó fejlécen elhelyezett kategóriák vizsgálata |          |           |           |           |
-| 3.    | Összes megnyitható? |          |           |           |           |
-| 4.    | Csak a hozzá tartozó hírek jelennek meg? |          |           |           |           |
-| 5.    | IT megnyitható? |          |           |           |           |
-| 6.    | Csak a hozzá tartozó hírek jelennek meg? |          |           |           |           |
-| 7.    | Utazás kategória megnyitható? |           |           |           |           |
-| 8.    | Csak a hozzá tartozó hírek jelennek meg? |          |           |           |           |
-| 9.    | Zene kategória megnyitható? |           |           |           |           |
-| 10.   | Csak a hozzá tartozó hírek jelennek meg? |          |           |           |           |
-| 11.   | Sport kategória megnyitható?           |           |           |           |
-| 12.   | Csak a hozzá tartozó hírek jelennek meg? |          |           |           |           |
+| 1.    | Weboldal megnyitása |          |           | OK |           |
+| 2.    | A kezdőlapon találhartó fejlécen elhelyezett kategóriák vizsgálata |          |           | OK |           |
+| 3.    | Összes megnyitható? |          |           | OK |           |
+| 4.    | Csak a hozzá tartozó hírek jelennek meg? |  |           | OK |           |
+| 5.    | IT megnyitható? |          |           | OK |           |
+| 6.    | Csak a hozzá tartozó hírek jelennek meg? |  |           | OK |           |
+| 7.    | Utazás kategória megnyitható? |           |           | OK          |           |
+| 8.    | Csak a hozzá tartozó hírek jelennek meg? |          |           | OK          |           |
+| 9.    | Zene kategória megnyitható? |           |           | OK |     |
+| 10.   | Csak a hozzá tartozó hírek jelennek meg? |          |           | OK          |           |
+| 11.   | Sport kategória megnyitható?           |           |           | OK          |
+| 12.   | Csak a hozzá tartozó hírek jelennek meg? |          |           | OK          |           |
 
 <hr>
 
 ## 4. Bejelentkezés tesztelése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
 | --- | ------- | - | - | - | - |
-| 1.    | Weboldal megnyitása |          |           |           |           |
-| 2.    | Jobb felső sarokban található Bejeltkezés átírányít a bejelentkezés felületre |          |           |           |           |
-| 3.    | Email cím mezőben beírható érték?|          |           |           |           |
-| 4.    | Email cím elfogad belépési adatnak @ nélküli címet? |          |           |           |           |
-| 5.    | Jelszó mezőbe beírható érték? |          |           |           |           |
-| 6.    | Jelszó mezőbe ellenőrzi a hosszt, vagy speciális karatktert? |          |           |           |           |
-| 7.    | Lépegethetünk tabulátorral a mezők közt? |          |           |           |           |
+| 1.    | Weboldal megnyitása |          |           | OK  |           |
+| 2.    | Jobb felső sarokban található Bejeltkezés átírányít a bejelentkezés felületre |          |           | OK          |           |
+| 3.    | Email cím mezőben beírható érték?|          |           | OK          |           |
+| 4.    | Email cím elfogad belépési adatnak @ nélküli címet? |          |           | NOK |           |
+| 5.    | Jelszó mezőbe beírható érték? |          |           | OK          |           |
+| 6.    | Jelszó mezőbe ellenőrzi a hosszt, vagy speciális karatktert? |          |           | NOK |           |
+| 7.    | Lépegethetünk tabulátorral a mezők közt? |          |           | OK |           |
 
 <hr>
 
  ## Új hír hozzáadása
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
 | --- | ------- | - | - | - | - |
-| 1.    | Weboldal megnyitása |          |           |           |           |
-| 2.    | Bejelentkezés után megjelenik -e az új hír létrehozása ikon ? |          |           |           |           |
-| 3.    | Megnyitja-e az ikon az új hír létrehozása részt? |          |           |           |           |
-| 4.    | Cím mezőben beírható érték? |          |           |           |           |
-| 5.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           |           |           |
-| 6.    | Szerző mezőben beírható érték? |          |           |           |           |
-| 7.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           |           |           |
-| 8.    | Kategiróa mezőbe kiválaszható-e kategória?|          |           |           |           |
-| 9.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           |           |           |
+| 1.    | Weboldal megnyitása |          |           | OK |           |
+| 2.    | Bejelentkezés után megjelenik -e az új hír létrehozása ikon ? |          |           | OK |           |
+| 3.    | Megnyitja-e az ikon az új hír létrehozása részt? |          |           | OK |           |
+| 4.    | Cím mezőben beírható érték? |          |           | OK          |           |
+| 5.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           | OK |           |
+| 6.    | Szerző mezőben beírható érték? |          |           | OK |           |
+| 7.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           | OK |           |
+| 8.    | Kategiróa mezőbe kiválaszható-e kategória?|          |           | NOK |           |
+| 9.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           | OK |           |
 
 <hr>
 
 ## Meglévő hír szerkesztése
 |Lépés| Feladat| Tesztelte | Mikor | OK/NOK | Javítva |
 | --- | ------- | - | - | - | - |
-| 1.    | Weboldal megnyitása |          |           |           |           |
-| 2.    | Bejelentkezés után megjelenik -e a hírek mellett a szerkesztés ikonja ? |          |           |           |           |
-| 3.    | Az ikon megnyomásakor belépünk a szerkesztési felületre?|          |           |           |           |
-| 4.    | Szerkeszthető-e a cím?|           |           |           |           |
-| 5.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           |           |           |
-| 6.    | Szerkeszthető-e a szerző? |           |           |           |           |
-| 7.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           |           |           |
-| 8.    | Szerkeszthető-e a kategória? |          |           |           |           |
-| 9.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           |           |           |
-| 10.   | Szerkeszthető-e a szöveg? |          |           |           |           |
-| 11.   | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           |           |           |
-| 12.   | Mentés után visszalépve a kezdőlapra már az szerkesztett hírt kapjuk? |          |           |           |           |
-| 13.   | Az adatbázisan is már a módosított hírt látjuk?|           |           |           |           |
+| 1.    | Weboldal megnyitása |          | 2023          | OK         |           |
+| 2.    | Bejelentkezés után megjelenik -e a hírek mellett a szerkesztés ikonja ? |          |           | OK          |           |
+| 3.    | Az ikon megnyomásakor belépünk a szerkesztési felületre?|          |           | OK          |           |
+| 4.    | Szerkeszthető-e a cím?|           |           | OK |           |
+| 5.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           | OK          |           |
+| 6.    | Szerkeszthető-e a szerző? |           |           | OK |           |
+| 7.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           | OK          |           |
+| 8.    | Szerkeszthető-e a kategória? |          |           | OK |           |
+| 9.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           | OK |           |
+| 10.   | Szerkeszthető-e a szöveg? |          |           | OK          |           |
+| 11.   | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |          |           | OK          |           |
+| 12.   | Mentés után visszalépve a kezdőlapra már az szerkesztett hírt kapjuk? |          |           | NOK          |           |
+| 13.   | Az adatbázisan is már a módosított hírt látjuk?|           |           | NOK          |           |
 
 <hr>
 
