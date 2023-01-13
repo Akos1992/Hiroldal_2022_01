@@ -199,23 +199,23 @@
 
 
 
-## 3. 🛠 Felhasznált eszközök
-Javascript, HTML, CSS, Bootsrap, Node.js, MYSQL Workbench, SQLite
+# 16. 🛠 Felhasznált eszközök
+	Javascript, HTML, CSS, Bootsrap, Node.js, MYSQL Workbench, SQLite
 
-## 4. Képmetszetek
+# 17. Képmetszetek
 
-Adatbázis kapcsolat diagram:
-![Kapcsolat diagram](https://i.imgur.com/eIJG3nA.png)
+	Adatbázis kapcsolat diagram:
+	![Kapcsolat diagram](https://i.imgur.com/eIJG3nA.png)
 
 
-## 5. Szerzők
+# 18. Szerzők
 
-- Csík Ákos
-- Maró Melinda
-- Kenyeres Tamás
-- Schmidt Anikó
-## 6. Visszajelzés
+	- Csík Ákos
+	- Maró Melinda
+	- Kenyeres Tamás
+	- Schmidt Anikó
+# 19. Visszajelzés
 
-Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
-johirportal@portalok.hu
+	Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
+	johirportal@portalok.hu
 
