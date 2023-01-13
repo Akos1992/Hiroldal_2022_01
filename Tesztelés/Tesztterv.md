@@ -22,10 +22,10 @@
 |               | Felhasználó   |
 | --- | ------- |
 | Név:          | Kenyeres Tamás|
-| Neptun kód:   |               |
+| Neptun kód:   | OKLI72  |
 | Dátum:        | 2023.01.10    |
 | Szoftver:     |               |
-| OS            |               |
+| OS            | Windows 10 Pro 22H2  |
 
 |               | Felhasználó   |
 | --- | ------- |
