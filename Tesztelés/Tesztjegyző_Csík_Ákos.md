@@ -113,15 +113,15 @@
 ## Adatvédelmi tájékoztató
 |Lépés| Feladat|  Mikor | OK/NOK | Határidő |
 | --- | ------- | - | - | - |
-| 1.    | Weboldal megnyitása |   2023.01.10      |      NOK     |     2023.03      |          
-| 2.    | A kezdőlap alján található az Adatvédelmi tájékoztató minden esetben, minden oldalon megjelenik? | 2023.01.10      |      NOK     |     2023.03      |           
-| 3.    | Megnyitható az adatvédelmi tájékoztató minden oldalról? |2023.01.10      |      NOK     |     2023.03      |          
+| 1.    | Weboldal megnyitása |          2023.01.10      |      ok     |           |      
+| 2.    | A kezdőlap alján található az Adatvédelmi tájékoztató minden esetben, minden oldalon megjelenik? |         2023.01.10      |      ok     |           |     
+| 3.    | Megnyitható az adatvédelmi tájékoztató minden oldalról? |        2023.01.10      |      ok     |           |     
 
 <hr>
 
 ## Impresszum
 |Lépés| Feladat|  Mikor | OK/NOK | Határidő |
 | --- | ------- | - | - | - |
-| 1.    | Weboldal megnyitása |  2023.01.10      |      NOK     |     2023.03      |      
-| 2.    | A kezdőlap alján található az Impresszum minden esetben, minden oldalon megjelenik? |  2023.01.10      |      NOK     |     2023.03      |        
-| 3.    | Megnyitható az Impresszum minden oldalról? | 2023.01.10      |      NOK     |     2023.03      |            
+| 1.    | Weboldal megnyitása |         2023.01.10      |      ok     |           |     
+| 2.    | A kezdőlap alján található az Impresszum minden esetben, minden oldalon megjelenik? |         2023.01.10      |      ok     |           |            
+| 3.    | Megnyitható az Impresszum minden oldalról? |         2023.01.10      |      ok     |           |          
