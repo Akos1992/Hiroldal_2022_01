@@ -14,10 +14,10 @@
 |               | Felhasználó   |
 | --- | ------- |
 | Név:          | Maró Melinda  |
-| Neptun kód:   |               |
+| Neptun kód:   | WMZKJ0  |
 | Dátum:        | 2023.01.10    |
-| Szoftver:     |               |
-| OS            |               |
+| Szoftver:     | Mozilla Firefox Verzió: 108.0.1 (64 bites) |
+| OS            | Windows 10 Pro 21H2 Build: 19044.2364 |
 
 |               | Felhasználó   |
 | --- | ------- |
