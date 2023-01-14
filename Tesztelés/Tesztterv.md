@@ -6,26 +6,26 @@
 |               | Felhasználó   |
 | --- | ------- |
 | Név:          | Schmidt Anikó |
-| Neptun kód:   |               |
+| Neptun kód:   | RIZY41              |
 | Dátum:        | 2023.01.10    |
-| Szoftver:     |               |
-| OS            |               |
+| Szoftver:     | Microsoft Edge Verzió: 108.0.1462.76 (Hivatalos build) (64 bites) |
+| OS            | Windows 10 Pro 21H2 Build: 19044.2486 |
 
 |               | Felhasználó   |
 | --- | ------- |
 | Név:          | Maró Melinda  |
-| Neptun kód:   |               |
+| Neptun kód:   | WMZKJ0  |
 | Dátum:        | 2023.01.10    |
-| Szoftver:     |               |
-| OS            |               |
+| Szoftver:     | Mozilla Firefox Verzió: 108.0.1 (64 bites) |
+| OS            | Windows 10 Pro 21H2 Build: 19044.2364 |
 
 |               | Felhasználó   |
 | --- | ------- |
 | Név:          | Kenyeres Tamás|
-| Neptun kód:   |               |
+| Neptun kód:   | OKLI72  |
 | Dátum:        | 2023.01.10    |
 | Szoftver:     |               |
-| OS            |               |
+| OS            | Windows 10 Pro 22H2  |
 
 |               | Felhasználó   |
 | --- | ------- |

@@ -2,21 +2,6 @@
 <hr>
 
 ## Tesztelést végezték:
-|               | Felhasználó   |
-| --- | ------- |
-| Név:          | Schmidt Anikó |
-| Neptun kód:   | RIZY41           |
-| Dátum:        | 2023.01.11    |
-| Szoftver:     | Microsoft Edge Verzió: 108.0.1462.76 (Hivatalos build) (64 bites)|
-| OS            | Windows 10 Pro 21H2 Build: 19044.2486 |
-
-|               | Felhasználó   |
-| --- | ------- |
-| Név:          | Maró Melinda  |
-| Neptun kód:   |               |
-| Dátum:        | 2023.01.10    |
-| Szoftver:     |               |
-| OS            |               |
 
 |               | Felhasználó   |
 | --- | ------- |
@@ -26,13 +11,7 @@
 | Szoftver:     |               |
 | OS            | Windows 10 Pro 22H2 |
 
-|               | Felhasználó   |
-| --- | ------- |
-| Név:          | Csík Ákos     |
-| Neptun kód:   | IEX9ME        |
-| Dátum:        | 2023.01.10    |
-| Szoftver:     | Google Chrome Verzió: 108.0.5359.125 (Hivatalos verzió) (64 bites) |               
-| OS            | Windows 11 Pro 22H2 Build: 22621.963  |
+
 
 <hr>
 
